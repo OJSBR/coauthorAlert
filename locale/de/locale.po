@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: de\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Hinweis zu Mitautorschaft und Betreuung"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Zeigt gut sichtbare Hinweise im Schritt „Beitragende“ und im abschließenden Überprüfungsschritt des Einreichungsassistenten an, die Autor/innen betreuter Arbeiten daran erinnern, ihre Betreuerin oder ihren Betreuer als Mitautor/in hinzuzufügen, und verlangt vor dem Einreichen eine Bestätigung. Alle Texte sind konfigurierbar und mehrsprachig."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Die folgenden Felder sind in jeder Sprache der Zeitschrift mit einem Standardtext vorausgefüllt und können frei geändert werden. Bleibt ein Feld leer, wird der Standardtext des Plugins verwendet."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Hinweis im Schritt „Beitragende“"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Überschrift des Hinweises"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Text des Hinweises"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Meldung, wenn es nur eine Autorin oder einen Autor gibt"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Meldung, sobald ein/e Mitautor/in hinzugefügt wurde"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Hinweis im abschließenden Überprüfungsschritt"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Überschrift des abschließenden Hinweises"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Text des abschließenden Hinweises"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Bestätigung"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Autor/in muss die Bestätigung ankreuzen, um die Einreichung abzuschließen"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Bestätigung nur verlangen, wenn die Einreichung nur eine Autorin oder einen Autor hat"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Text der Bestätigung"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Fehlermeldung, wenn ohne angekreuzte Bestätigung eingereicht wird"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Betreute Arbeit? Fügen Sie Ihre Betreuerin oder Ihren Betreuer jetzt als Mitautor/in hinzu"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Handelt es sich um eine betreute Arbeit (Abschlussprojekt, Abschlussarbeit oder Bachelorarbeit)? Fügen Sie Ihre Betreuerin oder Ihren Betreuer <strong>in diesem Schritt</strong> als Mitautor/in hinzu.</p><p>Nach der Einreichung kann die Autorenliste nicht mehr geändert werden, und die Zeitschrift muss von Anfang an wissen, wer Sie betreut hat, damit diese Person nie zur Begutachtung der Arbeit ihrer eigenen Studierenden eingeladen wird, was die doppelt anonyme Begutachtung gefährden würde. Ohne die Betreuungsperson als Mitautor/in kann die Arbeit zudem nicht als Abschlussarbeit anerkannt werden.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Diese Einreichung hat nur eine Autorin oder einen Autor. Wurde die Arbeit betreut, fügen Sie Ihre Betreuerin oder Ihren Betreuer jetzt als Mitautor/in hinzu."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Mitautor/innen hinzugefügt. Prüfen Sie, ob Ihre Betreuerin oder Ihr Betreuer darunter ist."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Letzte Gelegenheit, Ihre Betreuerin oder Ihren Betreuer als Mitautor/in hinzuzufügen"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Nach der Einreichung kann die Autorenliste nicht mehr geändert werden. Wurde die Arbeit betreut und ist Ihre Betreuerin oder Ihr Betreuer oben nicht aufgeführt, klicken Sie im Bereich „Beitragende“ auf „Bearbeiten“. Andernfalls kann die Arbeit nicht als Abschlussarbeit anerkannt werden, und die Betreuungsperson könnte zur Begutachtung eingeladen werden, was die doppelt anonyme Begutachtung gefährden würde.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ich habe die Autorenliste überprüft. Wurde diese Arbeit betreut, ist meine Betreuerin oder mein Betreuer als Mitautor/in aufgeführt. Mir ist bewusst, dass nach der Einreichung keine Mitautor/innen mehr hinzugefügt werden können.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Bitte kreuzen Sie die obige Bestätigung an, um die Einreichung abzuschließen."

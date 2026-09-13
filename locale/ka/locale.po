@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ka\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "თანაავტორისა და ხელმძღვანელის შეტყობინება"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "შენატანის ოსტატის მონაწილეების ეტაპზე და საბოლოო გადახედვის ეტაპზე აჩვენებს თვალსაჩინო შეტყობინებებს, რომლებიც ხელმძღვანელის ზედამხედველობით შესრულებული ნაშრომების ავტორებს შეახსენებს, რომ დაამატონ ხელმძღვანელი თანაავტორად, და შენატანამდე მოითხოვს დადასტურებას. ყველა ტექსტი კონფიგურირებადი და მრავალენოვანია."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "ქვემოთ მოცემული ველები წინასწარ შევსებულია ნაგულისხმევი ტექსტით ჟურნალის თითოეულ ენაზე და მათი შეცვლა თავისუფლად შესაძლებელია. თუ ველი ცარიელი დარჩა, გამოყენებული იქნება პლაგინის ნაგულისხმევი ტექსტი."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "შეტყობინება მონაწილეების ეტაპზე"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "შეტყობინების სათაური"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "შეტყობინების ტექსტი"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "შეტყობინება, როცა მხოლოდ ერთი ავტორია"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "შეტყობინება თანაავტორის დამატების შემდეგ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "შეტყობინება საბოლოო გადახედვის ეტაპზე"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "საბოლოო შეტყობინების სათაური"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "საბოლოო შეტყობინების ტექსტი"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "დადასტურება"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "ავტორისგან დადასტურების მონიშვნის მოთხოვნა შენატანის დასრულებამდე"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "დადასტურების მოთხოვნა მხოლოდ მაშინ, როცა შენატანს ერთი ავტორი ჰყავს"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "დადასტურების ტექსტი"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "შეცდომის შეტყობინება, როცა ავტორი მონიშვნის გარეშე ცდილობს გაგზავნას"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "ხელმძღვანელის ზედამხედველობით შესრულებული ნაშრომი? დაამატეთ ხელმძღვანელი თანაავტორად ახლავე"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>ნაშრომი შესრულებულია ხელმძღვანელის ზედამხედველობით (დიპლომური ნაშრომი, თეზისი ან საბაკალავრო ნაშრომი)? დაამატეთ ხელმძღვანელი თანაავტორად <strong>ამ ეტაპზე</strong>.</p><p>შენატანის შემდეგ ავტორთა სიის შეცვლა შეუძლებელია, და ჟურნალმა თავიდანვე უნდა იცოდეს, ვინ არის თქვენი ხელმძღვანელი, რათა იგი არასოდეს მოიწვიოს საკუთარი სტუდენტის ნაშრომის რეცენზენტად, რაც ორმხრივ ანონიმურ რეცენზირებას დააზიანებდა. ხელმძღვანელის თანაავტორად დამატების გარეშე ნაშრომი ასევე არ შეიძლება ჩაითვლოს დიპლომურ ნაშრომად.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "ამ შენატანს მხოლოდ ერთი ავტორი ჰყავს. თუ ნაშრომი ხელმძღვანელის ზედამხედველობით შესრულდა, დაამატეთ ხელმძღვანელი თანაავტორად ახლავე."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "თანაავტორები დაემატა. გადაამოწმეთ, არის თუ არა თქვენი ხელმძღვანელი მათ შორის."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "ბოლო შანსი, დაამატოთ ხელმძღვანელი თანაავტორად"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>შენატანის შემდეგ ავტორთა სიის შეცვლა აღარ იქნება შესაძლებელი. თუ ნაშრომი ხელმძღვანელის ზედამხედველობით შესრულდა და თქვენი ხელმძღვანელი ზემოთ არ ჩანს, დააწკაპეთ ჩასწორება მონაწილეების პანელში: წინააღმდეგ შემთხვევაში ნაშრომი არ შეიძლება ჩაითვლოს დიპლომურ ნაშრომად, და თქვენი ხელმძღვანელი შეიძლება მოიწვიონ მის რეცენზენტად, რაც ორმხრივ ანონიმურ რეცენზირებას დააზიანებს.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>ავტორთა სია გადავამოწმე. თუ ეს ნაშრომი ხელმძღვანელის ზედამხედველობით შესრულდა, ჩემი ხელმძღვანელი თანაავტორად არის მითითებული. მესმის, რომ შენატანის შემდეგ თანაავტორების დამატება შეუძლებელია.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "შენატანის დასრულებლად მონიშნეთ ზემოთ მოცემული დადასტურება."

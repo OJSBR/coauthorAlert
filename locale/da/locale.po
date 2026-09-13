@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: da\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Advarsel om medforfatter og vejleder"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Viser tydelige meddelelser i trinnet for bidragydere og i det sidste gennemgangstrin i indsendelsesguiden, som minder forfattere af vejledte opgaver om at tilføje deres vejleder som medforfatter, og kræver en bekræftelse før indsendelse. Alle tekster kan konfigureres og er flersprogede."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Felterne nedenfor er udfyldt på forhånd med en standardtekst på hvert af tidsskriftets sprog og kan frit ændres. Hvis et felt efterlades tomt, bruges pluginets standardtekst."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Meddelelse i trinnet for bidragydere"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Overskrift på meddelelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Tekst i meddelelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Besked, der vises, når der kun er én forfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Besked, der vises, når en medforfatter er tilføjet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Meddelelse i det sidste gennemgangstrin"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Overskrift på den sidste meddelelse"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Tekst i den sidste meddelelse"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Bekræftelse"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Kræv, at forfatteren afkrydser bekræftelsen, før indsendelsen kan afsluttes"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Kræv kun bekræftelsen, når indsendelsen har én forfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Tekst i bekræftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Fejlmeddelelse, når forfatteren forsøger at indsende uden at afkrydse bekræftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Vejledt opgave? Tilføj din vejleder som medforfatter nu"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Er det en vejledt opgave (afgangsprojekt, speciale eller bacheloropgave)? Tilføj din vejleder som medforfatter <strong>i dette trin</strong>.</p><p>Efter indsendelsen kan forfatterlisten ikke ændres, og tidsskriftet skal fra starten vide, hvem din vejleder er, så vejlederen aldrig bliver inviteret til at bedømme sin egen studerendes arbejde, hvilket ville kompromittere den dobbelt anonyme bedømmelse. Uden vejlederen som medforfatter kan arbejdet heller ikke godkendes som afgangsprojekt.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Denne indsendelse har kun én forfatter. Hvis arbejdet er vejledt, så tilføj din vejleder som medforfatter nu."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Medforfattere tilføjet. Kontrollér, at din vejleder er blandt dem."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Sidste chance for at tilføje din vejleder som medforfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Efter indsendelsen kan forfatterlisten ikke længere ændres. Hvis arbejdet er vejledt, og din vejleder ikke står ovenfor, så klik på Redigér i panelet Bidragydere: ellers kan arbejdet ikke godkendes som afgangsprojekt, og din vejleder kan blive inviteret til at bedømme det, hvilket kompromitterer den dobbelt anonyme bedømmelse.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Jeg har kontrolleret forfatterlisten. Hvis dette arbejde er vejledt, står min vejleder som medforfatter. Jeg forstår, at der ikke kan tilføjes medforfattere efter indsendelsen.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Afkryds bekræftelsen ovenfor for at afslutte din indsendelse."

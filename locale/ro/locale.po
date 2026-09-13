@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ro\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alertă privind coautorul și coordonatorul"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Afișează avertismente vizibile la pasul contributorilor și la pasul de verificare finală a trimiterii manuscrisului, amintind autorilor lucrărilor coordonate să își adauge coordonatorul ca coautor, și solicită o confirmare înainte de trimitere. Toate textele sunt configurabile și multilingve."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Câmpurile de mai jos sunt precompletate cu un text implicit în fiecare limbă a revistei și pot fi modificate liber. Dacă un câmp este lăsat gol, se folosește textul implicit al pluginului."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Avertisment la pasul contributorilor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Titlul avertismentului"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Textul avertismentului"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mesaj afișat când există un singur autor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mesaj afișat după adăugarea unui coautor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Avertisment la pasul de verificare finală"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Titlul avertismentului final"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Textul avertismentului final"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Confirmare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Autorul trebuie să bifeze confirmarea înainte de a finaliza trimiterea"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Solicită confirmarea doar când manuscrisul are un singur autor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Textul confirmării"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mesaj de eroare afișat când autorul încearcă să trimită fără a bifa confirmarea"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Lucrare coordonată? Adăugați-vă acum coordonatorul ca coautor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Lucrare realizată sub coordonare (lucrare de licență, disertație sau lucrare de semestru)? Adăugați-vă coordonatorul ca coautor <strong>la acest pas</strong>.</p><p>După trimitere, lista autorilor nu mai poate fi modificată, iar revista trebuie să știe de la început cine este coordonatorul dvs., pentru a nu-l invita niciodată să evalueze lucrarea propriului student, ceea ce ar compromite evaluarea dublu-anonimă. Fără coordonator ca coautor, lucrarea nu poate fi validată nici ca lucrare de licență.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Acest manuscris are un singur autor. Dacă lucrarea a fost coordonată, adăugați-vă acum coordonatorul ca coautor."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coautori adăugați. Verificați dacă printre ei se află și coordonatorul dvs."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Ultima șansă de a vă adăuga coordonatorul ca coautor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>După trimitere, lista autorilor nu mai poate fi modificată. Dacă lucrarea a fost coordonată și coordonatorul dvs. nu apare mai sus, faceți clic pe Editați în panoul Contributori: altfel lucrarea nu poate fi validată ca lucrare de licență, iar coordonatorul dvs. ar putea fi invitat să o evalueze, compromițând evaluarea dublu-anonimă.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Am verificat lista autorilor. Dacă această lucrare a fost coordonată, coordonatorul meu figurează ca coautor. Înțeleg că nu se mai pot adăuga coautori după trimitere.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Bifați confirmarea de mai sus pentru a finaliza trimiterea."

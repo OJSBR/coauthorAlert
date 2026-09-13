@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sv\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Varning om medförfattare och handledare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Visar tydliga meddelanden i steget för medarbetare och i det sista granskningssteget i inskickningsguiden, som påminner författare av handledda arbeten om att lägga till sin handledare som medförfattare, och kräver en bekräftelse innan bidraget skickas in. Alla texter är konfigurerbara och flerspråkiga."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Fälten nedan är förifyllda med en standardtext på vart och ett av tidskriftens språk och kan ändras fritt. Om ett fält lämnas tomt används pluginens standardtext."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Meddelande i steget för medarbetare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Rubrik för meddelandet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Text i meddelandet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Meddelande som visas när det bara finns en författare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Meddelande som visas när en medförfattare har lagts till"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Meddelande i det sista granskningssteget"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Rubrik för det sista meddelandet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Text i det sista meddelandet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Bekräftelse"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Kräv att författaren kryssar i bekräftelsen innan bidraget kan skickas in"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Kräv bekräftelsen endast när bidraget har en enda författare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Text i bekräftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Felmeddelande som visas när författaren försöker skicka in utan att kryssa i bekräftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Handlett arbete? Lägg till din handledare som medförfattare nu"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Är det ett handlett arbete (examensarbete, uppsats eller kandidatarbete)? Lägg till din handledare som medförfattare <strong>i det här steget</strong>.</p><p>Efter inskickningen kan författarlistan inte ändras, och tidskriften behöver veta från början vem din handledare är, så att handledaren aldrig bjuds in att granska sin egen students arbete, vilket skulle äventyra den dubbelblinda granskningen. Utan handledaren som medförfattare kan arbetet inte heller godkännas som examensarbete.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Det här bidraget har bara en författare. Om arbetet var handlett, lägg till din handledare som medförfattare nu."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Medförfattare tillagda. Kontrollera att din handledare finns med."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Sista chansen att lägga till din handledare som medförfattare"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Efter inskickningen kan författarlistan inte längre ändras. Om arbetet var handlett och din handledare inte finns med ovan, klicka på Redigera i panelen Medarbetare: annars kan arbetet inte godkännas som examensarbete, och din handledare kan bjudas in att granska det, vilket äventyrar den dubbelblinda granskningen.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Jag har kontrollerat författarlistan. Om det här arbetet var handlett står min handledare med som medförfattare. Jag förstår att medförfattare inte kan läggas till efter inskickningen.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Kryssa i bekräftelsen ovan för att slutföra inskickningen."

@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pt_BR\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alerta de Coautoria e Orientador"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Exibe avisos destacados na etapa de contribuidores e na revisão final da submissão, lembrando os autores de trabalhos orientados de incluir o orientador como coautor, e exige uma declaração de ciência antes da submissão. Todos os textos são configuráveis e multilíngues."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Os textos abaixo já vêm preenchidos com uma redação padrão em cada idioma da revista e podem ser alterados livremente. Se um campo ficar em branco, o texto padrão do plugin é usado."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Aviso na etapa de contribuidores"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Título do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Texto do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mensagem exibida quando há apenas um autor"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mensagem exibida quando já existe coautor"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Aviso na revisão final da submissão"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Título do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Texto do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Declaração de ciência"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Exigir que o autor marque a declaração de ciência para concluir o envio"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Exigir a declaração somente quando a submissão tiver um único autor"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Texto da declaração de ciência"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mensagem de erro ao tentar enviar sem marcar a declaração"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Trabalho orientado? Inclua o orientador como coautor agora"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Trabalho feito sob orientação (TCC, monografia ou artigo de graduação)? Inclua o orientador como coautor <strong>nesta etapa</strong>.</p><p>Depois da submissão a lista de autores não pode ser alterada, e a revista precisa saber desde o início quem é o orientador para não convidá-lo a avaliar o trabalho do próprio aluno, o que comprometeria a avaliação duplo-cega. Sem o orientador como coautor, o trabalho também não será validado como TCC.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Esta submissão tem apenas um autor. Se houve orientação, inclua o orientador como coautor agora."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coautores incluídos. Confira se o orientador está entre eles."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Última chance de incluir o orientador como coautor"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Depois da submissão, a lista de autores não poderá mais ser alterada. Se houve orientação e o orientador não aparece acima, clique em Editar no bloco Contribuidores: sem ele, o trabalho não será validado como TCC e o orientador poderá ser convidado a avaliá-lo, comprometendo a avaliação duplo-cega.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Conferi a lista de autores. Se este trabalho teve orientação, o orientador está incluído como coautor. Estou ciente de que não será possível incluir coautores após a submissão.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Marque a declaração acima para concluir a submissão."

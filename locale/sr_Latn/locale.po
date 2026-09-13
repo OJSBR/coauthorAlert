@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sr_Latn\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Upozorenje o koautoru i mentoru"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Prikazuje istaknuta upozorenja u koraku za saradnike i u koraku završnog pregleda predaje, podsećajući autore radova rađenih pod mentorstvom da dodaju mentora kao koautora, i zahteva potvrdu pre predaje. Svi tekstovi su podesivi i višejezični."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Polja ispod su unapred popunjena podrazumevanim tekstom na svakom jeziku časopisa i mogu se slobodno menjati. Ako polje ostane prazno, koristi se podrazumevani tekst dodatka."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Upozorenje u koraku za saradnike"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Naslov upozorenja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Tekst upozorenja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Poruka koja se prikazuje kada postoji samo jedan autor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Poruka koja se prikazuje nakon dodavanja koautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Upozorenje u koraku završnog pregleda"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Naslov završnog upozorenja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Tekst završnog upozorenja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Potvrda"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Zahtevaj da autor označi potvrdu pre završetka predaje"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Zahtevaj potvrdu samo kada predaja ima jednog autora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Tekst potvrde"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Poruka o grešci kada autor pokuša predaju bez označene potvrde"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Rad pod mentorstvom? Dodajte mentora kao koautora sada"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Rad urađen pod mentorstvom (završni rad, teza ili rad na osnovnim studijama)? Dodajte mentora kao koautora <strong>u ovom koraku</strong>.</p><p>Nakon predaje spisak autora se ne može menjati, a časopis od početka mora da zna ko je vaš mentor, kako ga nikada ne bi pozvao da recenzira rad sopstvenog studenta, što bi ugrozilo dvostruko slepu recenziju. Bez mentora kao koautora, rad takođe ne može biti priznat kao završni rad.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Ova predaja ima samo jednog autora. Ako je rad urađen pod mentorstvom, dodajte mentora kao koautora sada."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Koautori su dodati. Proverite da li je vaš mentor među njima."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Poslednja prilika da dodate mentora kao koautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Nakon predaje spisak autora više se ne može menjati. Ako je rad urađen pod mentorstvom, a vaš mentor nije naveden iznad, kliknite na Izmeni u panelu Saradnici: u suprotnom rad ne može biti priznat kao završni rad, a vaš mentor bi mogao biti pozvan da ga recenzira, što ugrožava dvostruko slepu recenziju.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Proverio/la sam spisak autora. Ako je ovaj rad urađen pod mentorstvom, moj mentor je naveden kao koautor. Razumem da se koautori ne mogu dodati nakon predaje.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Označite potvrdu iznad da biste završili predaju."

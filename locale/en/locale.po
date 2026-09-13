@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: en\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Co-author and Supervisor Alert"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Displays prominent notices on the contributors step and on the final review step of the submission wizard, reminding authors of supervised work to add their supervisor as a co-author, and requires an acknowledgement before submitting. All texts are configurable and multilingual."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "The fields below come prefilled with default wording in each of the journal's languages and can be changed freely. If a field is left empty, the plugin's default text is used."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Notice on the contributors step"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Notice heading"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Notice text"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Message shown when there is only one author"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Message shown once a co-author has been added"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Notice on the final review step"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Final notice heading"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Final notice text"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Acknowledgement"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Require the author to tick the acknowledgement before completing the submission"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Require the acknowledgement only when the submission has a single author"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Acknowledgement text"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Error message shown when the author tries to submit without ticking it"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Supervised work? Add your supervisor as a co-author now"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Supervised work (a final project, thesis or undergraduate paper)? Add your supervisor as a co-author <strong>at this step</strong>.</p><p>After submission the author list cannot be changed, and the journal needs to know who your supervisor is from the start, so they are never invited to review their own student's work, which would compromise double-blind review. Without the supervisor as a co-author, the work also cannot be validated as a final project.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "This submission has only one author. If the work was supervised, add your supervisor as a co-author now."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Co-authors added. Make sure your supervisor is one of them."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Last chance to add your supervisor as a co-author"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>After submission the author list can no longer be changed. If the work was supervised and your supervisor is not listed above, click Edit in the Contributors panel: otherwise the work cannot be validated as a final project, and your supervisor could be invited to review it, compromising double-blind review.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>I have checked the author list. If this work was supervised, my supervisor is listed as a co-author. I understand that co-authors cannot be added after submission.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Please tick the acknowledgement above to complete your submission."

@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: uk\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Нагадування про співавторство та наукового керівника"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Показує помітні попередження на кроці «Автори» та на завершальному кроці перевірки майстра подання, нагадуючи авторам робіт, виконаних під керівництвом, додати наукового керівника як співавтора, і вимагає підтвердження перед поданням. Усі тексти налаштовуються та підтримують кілька мов."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Поля нижче вже заповнені текстом за замовчуванням кожною мовою журналу, і їх можна вільно змінювати. Якщо поле залишити порожнім, використовується текст плагіна за замовчуванням."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Попередження на кроці «Автори»"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Заголовок попередження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Текст попередження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Повідомлення, коли вказано лише одного автора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Повідомлення після додавання співавтора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Попередження на завершальному кроці перевірки"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Заголовок підсумкового попередження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Текст підсумкового попередження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Підтвердження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Вимагати, щоб автор позначив підтвердження перед завершенням подання"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Вимагати підтвердження лише тоді, коли подання має одного автора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Текст підтвердження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Повідомлення про помилку, коли автор намагається надіслати подання без позначки підтвердження"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Робота виконана під керівництвом? Додайте наукового керівника як співавтора зараз"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Робота виконана під керівництвом (кваліфікаційна, дипломна чи курсова робота)? Додайте наукового керівника як співавтора <strong>на цьому кроці</strong>.</p><p>Після подання список авторів змінити неможливо, а журнал має від початку знати, хто ваш керівник, щоб ніколи не запросити його рецензувати роботу власного студента, що порушило б подвійне сліпе рецензування. Без керівника серед співавторів роботу також не можна зарахувати як кваліфікаційну.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Це подання має лише одного автора. Якщо робота виконана під керівництвом, додайте наукового керівника як співавтора зараз."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Співавторів додано. Переконайтеся, що серед них є ваш науковий керівник."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Остання можливість додати наукового керівника як співавтора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Після подання список авторів уже не можна буде змінити. Якщо робота виконана під керівництвом, а вашого керівника немає у списку вище, натисніть «Редагувати» в розділі «Автори»: інакше роботу не можна буде зарахувати як кваліфікаційну, а вашого керівника можуть запросити її рецензувати, що порушило б подвійне сліпе рецензування.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Я перевірив(ла) список авторів. Якщо цю роботу виконано під керівництвом, мого наукового керівника вказано як співавтора. Я розумію, що після подання додати співавторів неможливо.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Позначте підтвердження вище, щоб завершити подання."

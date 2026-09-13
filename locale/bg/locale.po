@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: bg\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Предупреждение за съавтор и научен ръководител"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Показва видими предупреждения в стъпката за съавторите и в стъпката за окончателен преглед при подаване на ръкопис, като напомня на авторите на разработки под ръководство да добавят научния си ръководител като съавтор, и изисква потвърждение преди изпращане. Всички текстове са настройваеми и многоезични."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Полетата по-долу са предварително попълнени с текст по подразбиране на всеки от езиците на списанието и могат да се променят свободно. Ако поле остане празно, се използва текстът по подразбиране на плъгина."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Предупреждение в стъпката за съавторите"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Заглавие на предупреждението"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Текст на предупреждението"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Съобщение, показвано когато има само един автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Съобщение, показвано след добавяне на съавтор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Предупреждение в стъпката за окончателен преглед"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Заглавие на окончателното предупреждение"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Текст на окончателното предупреждение"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Потвърждение"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Авторът трябва да отметне потвърждението, преди да завърши подаването"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Изискване на потвърждение само когато ръкописът има един автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Текст на потвърждението"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Съобщение за грешка, когато авторът опита да изпрати без да отметне потвърждението"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Разработка под ръководство? Добавете научния си ръководител като съавтор сега"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Разработка под научно ръководство (дипломна работа, теза или курсова разработка)? Добавете научния си ръководител като съавтор <strong>в тази стъпка</strong>.</p><p>След подаването списъкът с автори не може да се променя, а списанието трябва да знае от самото начало кой е вашият ръководител, за да не бъде той поканен да рецензира работата на собствения си студент, което би нарушило двойно анонимното рецензиране. Без ръководителя като съавтор работата също не може да бъде призната като дипломна работа.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Този ръкопис има само един автор. Ако работата е под научно ръководство, добавете ръководителя си като съавтор сега."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Съавторите са добавени. Проверете дали научният ви ръководител е сред тях."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Последен шанс да добавите научния си ръководител като съавтор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>След подаването списъкът с автори вече не може да се променя. Ако работата е под научно ръководство и ръководителят ви не е посочен по-горе, щракнете върху Редактиране в панела Съавтори: в противен случай работата не може да бъде призната като дипломна работа, а ръководителят ви може да бъде поканен да я рецензира, което нарушава двойно анонимното рецензиране.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Проверих списъка с автори. Ако тази работа е под научно ръководство, моят ръководител е посочен като съавтор. Разбирам, че след подаването не могат да се добавят съавтори.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Моля, отметнете потвърждението по-горе, за да завършите подаването."

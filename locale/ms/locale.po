@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ms\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Amaran Pengarang Bersama dan Penyelia"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Memaparkan notis yang menonjol pada langkah Penyumbang dan langkah semakan akhir dalam wizard penyerahan, mengingatkan pengarang karya yang diselia supaya menambah penyelia mereka sebagai pengarang bersama, dan memerlukan pengakuan sebelum penyerahan. Semua teks boleh dikonfigurasi dan berbilang bahasa."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Medan di bawah telah diisi dengan teks lalai dalam setiap bahasa jurnal dan boleh diubah dengan bebas. Jika medan dibiarkan kosong, teks lalai plugin akan digunakan."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Notis pada langkah Penyumbang"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Tajuk notis"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Teks notis"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mesej yang dipaparkan apabila hanya ada seorang pengarang"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mesej yang dipaparkan selepas pengarang bersama ditambah"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Notis pada langkah semakan akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Tajuk notis akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Teks notis akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Pengakuan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Wajibkan pengarang menanda pengakuan sebelum melengkapkan penyerahan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Wajibkan pengakuan hanya apabila penyerahan mempunyai seorang pengarang sahaja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Teks pengakuan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mesej ralat yang dipaparkan apabila pengarang cuba menyerahkan tanpa menanda pengakuan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Karya diselia? Tambah penyelia anda sebagai pengarang bersama sekarang"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Karya yang diselia (projek tahun akhir, tesis atau kertas prasiswazah)? Tambah penyelia anda sebagai pengarang bersama <strong>pada langkah ini</strong>.</p><p>Selepas penyerahan, senarai pengarang tidak boleh diubah, dan jurnal perlu tahu siapa penyelia anda dari awal supaya beliau tidak sekali-kali dijemput mengulas karya pelajarnya sendiri, yang akan menjejaskan ulasan dwi-buta. Tanpa penyelia sebagai pengarang bersama, karya ini juga tidak boleh disahkan sebagai projek tahun akhir.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Penyerahan ini hanya mempunyai seorang pengarang. Jika karya ini diselia, tambah penyelia anda sebagai pengarang bersama sekarang."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Pengarang bersama telah ditambah. Pastikan penyelia anda salah seorang daripada mereka."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Peluang terakhir untuk menambah penyelia anda sebagai pengarang bersama"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Selepas penyerahan, senarai pengarang tidak lagi boleh diubah. Jika karya ini diselia dan penyelia anda tidak tersenarai di atas, klik Sunting pada panel Penyumbang: jika tidak, karya ini tidak boleh disahkan sebagai projek tahun akhir, dan penyelia anda mungkin dijemput untuk mengulasnya, sekali gus menjejaskan ulasan dwi-buta.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Saya telah menyemak senarai pengarang. Jika karya ini diselia, penyelia saya tersenarai sebagai pengarang bersama. Saya faham bahawa pengarang bersama tidak boleh ditambah selepas penyerahan.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Sila tanda pengakuan di atas untuk melengkapkan penyerahan anda."

@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: it\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Avviso co-autore e relatore"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Mostra avvisi ben visibili nella fase dei co-autori e nella fase di revisione finale della procedura di invio, ricordando agli autori di lavori seguiti da un relatore di aggiungerlo come co-autore, e richiede una conferma prima dell'invio. Tutti i testi sono configurabili e multilingue."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "I campi seguenti sono precompilati con un testo predefinito in ciascuna lingua della rivista e possono essere modificati liberamente. Se un campo viene lasciato vuoto, viene usato il testo predefinito del plugin."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Avviso nella fase dei co-autori"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Titolo dell'avviso"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Testo dell'avviso"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Messaggio mostrato quando c'è un solo autore"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Messaggio mostrato quando è stato aggiunto un co-autore"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Avviso nella fase di revisione finale"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Titolo dell'avviso finale"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Testo dell'avviso finale"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Conferma"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Richiedi che l'autore spunti la conferma prima di completare la proposta"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Richiedi la conferma solo quando la proposta ha un unico autore"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Testo della conferma"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Messaggio di errore mostrato quando l'autore tenta di inviare senza spuntare la conferma"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Lavoro con relatore? Aggiungi subito il tuo relatore come co-autore"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Si tratta di un lavoro svolto con un relatore (progetto finale, tesi o elaborato di laurea)? Aggiungi il tuo relatore come co-autore <strong>in questa fase</strong>.</p><p>Dopo l'invio l'elenco degli autori non può essere modificato, e la rivista deve sapere fin dall'inizio chi è il tuo relatore, così da non invitarlo mai a revisionare il lavoro del proprio studente, il che comprometterebbe la revisione in doppio cieco. Senza il relatore come co-autore, inoltre, il lavoro non potrà essere convalidato come tesi di laurea.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Questa proposta ha un solo autore. Se il lavoro è stato seguito da un relatore, aggiungilo subito come co-autore."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Co-autori aggiunti. Verifica che il tuo relatore sia tra loro."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Ultima occasione per aggiungere il tuo relatore come co-autore"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Dopo l'invio l'elenco degli autori non potrà più essere modificato. Se il lavoro è stato seguito da un relatore e questi non compare qui sopra, fai clic su Modifica nel pannello Co-autori: altrimenti il lavoro non potrà essere convalidato come tesi di laurea e il tuo relatore potrebbe essere invitato a revisionarlo, compromettendo la revisione in doppio cieco.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ho verificato l'elenco degli autori. Se questo lavoro è stato seguito da un relatore, il mio relatore è indicato come co-autore. Sono consapevole che non è possibile aggiungere co-autori dopo l'invio.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Spunta la conferma qui sopra per completare l'invio."

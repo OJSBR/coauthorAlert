@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: az\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Həmmüəllif və Elmi Rəhbər Xəbərdarlığı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Təqdimat sehrbazının iştirakçılar mərhələsində və son nəzərdən keçirmə mərhələsində diqqətçəkən xəbərdarlıqlar göstərir, elmi rəhbərlik altında hazırlanmış işlərin müəlliflərinə elmi rəhbəri həmmüəllif kimi əlavə etməyi xatırladır və təqdim etməzdən əvvəl təsdiq tələb edir. Bütün mətnlər tənzimlənə bilən və çoxdillidir."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Aşağıdakı sahələr jurnalın hər dilində standart mətnlə əvvəlcədən doldurulub və sərbəst dəyişdirilə bilər. Sahə boş qalarsa, əlavənin standart mətni istifadə olunur."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "İştirakçılar mərhələsində xəbərdarlıq"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Xəbərdarlığın başlığı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Xəbərdarlığın mətni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Yalnız bir müəllif olduqda göstərilən mesaj"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Həmmüəllif əlavə edildikdən sonra göstərilən mesaj"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Son nəzərdən keçirmə mərhələsində xəbərdarlıq"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Son xəbərdarlığın başlığı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Son xəbərdarlığın mətni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Təsdiq"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Təqdimatı tamamlamazdan əvvəl müəllifdən təsdiqi işarələməyi tələb et"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Təsdiqi yalnız təqdimatın bir müəllifi olduqda tələb et"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Təsdiq mətni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Müəllif işarələmədən təqdim etməyə çalışdıqda göstərilən xəta mesajı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Elmi rəhbərlik altında iş? Elmi rəhbərinizi indi həmmüəllif kimi əlavə edin"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Elmi rəhbərlik altında hazırlanmış iş (buraxılış işi, dissertasiya və ya bakalavr işi)? Elmi rəhbərinizi <strong>bu mərhələdə</strong> həmmüəllif kimi əlavə edin.</p><p>Təqdimatdan sonra müəlliflərin siyahısı dəyişdirilə bilməz və jurnal elmi rəhbərinizi əvvəldən bilməlidir ki, onu heç vaxt öz tələbəsinin işini dəyərləndirməyə dəvət etməsin, çünki bu, ikitərəfli anonim rəyçiliyi pozar. Elmi rəhbər həmmüəllif kimi əlavə edilməzsə, iş buraxılış işi kimi də təsdiqlənə bilməz.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Bu təqdimatın yalnız bir müəllifi var. İş elmi rəhbərlik altında hazırlanıbsa, elmi rəhbərinizi indi həmmüəllif kimi əlavə edin."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Həmmüəlliflər əlavə edildi. Elmi rəhbərinizin onların arasında olduğuna əmin olun."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Elmi rəhbərinizi həmmüəllif kimi əlavə etmək üçün son şans"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Təqdimatdan sonra müəlliflərin siyahısı artıq dəyişdirilə bilməz. İş elmi rəhbərlik altında hazırlanıbsa və elmi rəhbəriniz yuxarıda göstərilmirsə, İştirakçılar panelində Redaktə edin düyməsini klikləyin: əks halda iş buraxılış işi kimi təsdiqlənə bilməz və elmi rəhbəriniz onu dəyərləndirməyə dəvət edilə bilər, bu da ikitərəfli anonim rəyçiliyi pozar.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Müəlliflərin siyahısını yoxladım. Bu iş elmi rəhbərlik altında hazırlanıbsa, elmi rəhbərim həmmüəllif kimi göstərilib. Təqdimatdan sonra həmmüəllif əlavə etməyin mümkün olmadığını başa düşürəm.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Təqdimatı tamamlamaq üçün yuxarıdakı təsdiqi işarələyin."

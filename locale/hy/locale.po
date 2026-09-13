@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hy\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Համահեղինակի և գիտական ղեկավարի ծանուցում"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Ներկայացման գործընթացի աջակիցների քայլում և վերջնական վերանայման քայլում ցուցադրում է ընդգծված ծանուցումներ, որոնք հիշեցնում են ղեկավարությամբ կատարված աշխատանքների հեղինակներին ավելացնել իրենց գիտական ղեկավարին որպես համահեղինակ, և պահանջում է հաստատում՝ նախքան ներկայացնելը։ Բոլոր տեքստերը կարգավորելի են և բազմալեզու։"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Ստորև դաշտերը նախապես լրացված են լռելյայն ձևակերպմամբ ամսագրի յուրաքանչյուր լեզվով և կարող են ազատորեն փոփոխվել։ Եթե դաշտը դատարկ մնա, կօգտագործվի պլագինի լռելյայն տեքստը։"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Ծանուցում աջակիցների քայլում"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Ծանուցման վերնագիր"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Ծանուցման տեքստ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Հաղորդագրություն, որը ցուցադրվում է, երբ կա միայն մեկ հեղինակ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Հաղորդագրություն, որը ցուցադրվում է համահեղինակ ավելացնելուց հետո"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Ծանուցում վերջնական վերանայման քայլում"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Վերջնական ծանուցման վերնագիր"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Վերջնական ծանուցման տեքստ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Հաստատում"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Պահանջել, որ հեղինակը նշի հաստատումը՝ նախքան ներկայացումն ավարտելը"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Պահանջել հաստատումը միայն այն դեպքում, երբ ներկայացումն ունի մեկ հեղինակ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Հաստատման տեքստ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Սխալի հաղորդագրություն, որը ցուցադրվում է, երբ հեղինակը փորձում է ներկայացնել առանց նշելու"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Ղեկավարությամբ աշխատա՞նք։ Ավելացրեք ձեր գիտական ղեկավարին որպես համահեղինակ հիմա"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Աշխատանքը կատարվե՞լ է ղեկավարությամբ (ավարտական աշխատանք, թեզ կամ բակալավրիատի հոդված)։ Ավելացրեք ձեր գիտական ղեկավարին որպես համահեղինակ <strong>այս քայլում</strong>։</p><p>Ներկայացումից հետո հեղինակների ցանկը հնարավոր չէ փոխել, և ամսագիրը պետք է սկզբից իմանա, թե ով է ձեր ղեկավարը, որպեսզի նրան երբեք չհրավիրի գրախոսելու սեփական ուսանողի աշխատանքը, ինչը կվտանգեր կրկնակի անանուն գրախոսությունը։ Առանց ղեկավարին որպես համահեղինակ ավելացնելու՝ աշխատանքը նաև չի կարող հաստատվել որպես ավարտական աշխատանք։</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Այս ներկայացումն ունի միայն մեկ հեղինակ։ Եթե աշխատանքը կատարվել է ղեկավարությամբ, ավելացրեք ձեր գիտական ղեկավարին որպես համահեղինակ հիմա։"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Համահեղինակներն ավելացված են։ Համոզվեք, որ ձեր գիտական ղեկավարը նրանց թվում է։"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Վերջին հնարավորությունը՝ ավելացնելու ձեր գիտական ղեկավարին որպես համահեղինակ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Ներկայացումից հետո հեղինակների ցանկն այլևս հնարավոր չի լինի փոխել։ Եթե աշխատանքը կատարվել է ղեկավարությամբ, և ձեր ղեկավարը վերևում նշված չէ, սեղմեք Խմբագրել Աջակիցներ վահանակում. հակառակ դեպքում աշխատանքը չի կարող հաստատվել որպես ավարտական աշխատանք, և ձեր ղեկավարը կարող է հրավիրվել այն գրախոսելու՝ վտանգելով կրկնակի անանուն գրախոսությունը։</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ես ստուգել եմ հեղինակների ցանկը։ Եթե այս աշխատանքը կատարվել է ղեկավարությամբ, իմ գիտական ղեկավարը նշված է որպես համահեղինակ։ Ես հասկանում եմ, որ ներկայացումից հետո համահեղինակներ ավելացնել հնարավոր չէ։</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Խնդրում ենք նշել վերևի հաստատումը՝ ներկայացումն ավարտելու համար։"

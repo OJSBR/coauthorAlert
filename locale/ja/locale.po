@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ja\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "共著者・指導教員アラート"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "投稿ウィザードの「寄稿者」ステップと最終確認ステップに目立つ注意書きを表示し、指導を受けた研究の著者に指導教員を共著者として追加するよう促すとともに、投稿前に確認事項への同意を求めます。すべてのテキストは設定可能で、多言語に対応しています。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "以下の欄には雑誌の各言語でデフォルトの文面があらかじめ入力されており、自由に変更できます。欄を空にした場合は、プラグインのデフォルトのテキストが使用されます。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "「寄稿者」ステップの注意書き"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "注意書きの見出し"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "注意書きの本文"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "著者が1名のみの場合に表示するメッセージ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "共著者が追加された後に表示するメッセージ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "最終確認ステップの注意書き"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "最終注意書きの見出し"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "最終注意書きの本文"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "確認事項"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "投稿を完了する前に、著者に確認事項へのチェックを必須とする"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "投稿の著者が1名のみの場合に限り確認事項を必須とする"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "確認事項のテキスト"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "著者がチェックせずに投稿しようとした場合に表示するエラーメッセージ"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "指導を受けた研究ですか？今すぐ指導教員を共著者として追加してください"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>指導を受けて行った研究（卒業論文、学位論文、学部生の論文など）ですか？<strong>このステップで</strong>指導教員を共著者として追加してください。</p><p>投稿後は著者リストを変更できません。また、指導教員が自分の学生の研究の査読を依頼されてダブルブラインド査読が損なわれることのないよう、雑誌は最初から指導教員が誰であるかを把握しておく必要があります。指導教員が共著者に含まれていない場合、卒業研究としても認定されません。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "この投稿の著者は1名のみです。指導を受けた研究の場合は、今すぐ指導教員を共著者として追加してください。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "共著者が追加されました。指導教員が含まれていることを確認してください。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "指導教員を共著者として追加できる最後の機会です"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>投稿後は著者リストを変更できなくなります。指導を受けた研究で、指導教員が上に表示されていない場合は、「寄稿者」欄の「編集」をクリックしてください。そうしないと卒業研究として認定されず、指導教員に査読が依頼されてダブルブラインド査読が損なわれるおそれがあります。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>著者リストを確認しました。この研究が指導を受けたものである場合、指導教員は共著者として記載されています。投稿後は共著者を追加できないことを理解しています。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "投稿を完了するには、上の確認事項にチェックを入れてください。"

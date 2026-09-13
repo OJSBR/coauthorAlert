@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: gl\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Aviso de coautoría e titor/a"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Mostra avisos destacados no paso de colaboradores e no paso de revisión final do asistente de envío, lembrando aos autores de traballos titorizados que engadan o seu titor/a como coautor/a, e esixe unha declaración antes de enviar. Todos os textos son configurables e multilingües."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Os campos seguintes veñen cubertos cun texto predeterminado en cada idioma da revista e pódense modificar libremente. Se un campo se deixa baleiro, úsase o texto predeterminado do módulo."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Aviso no paso de colaboradores"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Título do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Texto do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mensaxe que se mostra cando hai un só autor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mensaxe que se mostra cando xa se engadiu un coautor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Aviso no paso de revisión final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Título do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Texto do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Declaración"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Esixir que o autor/a marque a declaración para completar o envío"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Esixir a declaración só cando o envío teña un único autor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Texto da declaración"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mensaxe de erro que se mostra cando o autor/a tenta enviar sen marcar a declaración"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Traballo titorizado? Engade agora o teu titor/a como coautor/a"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Traballo feito baixo titoría (traballo final, de fin de grao ou de fin de máster)? Engade o teu titor/a como coautor/a <strong>neste paso</strong>.</p><p>Despois do envío a lista de autores non se pode modificar, e a revista precisa saber desde o principio quen é o teu titor/a para non convidalo nunca a revisar o traballo do seu propio estudante, o que comprometería a revisión con dobre anonimato. Sen o titor/a como coautor/a, o traballo tampouco se poderá validar como traballo final.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Este envío ten un só autor/a. Se houbo titoría, engade agora o teu titor/a como coautor/a."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coautores engadidos. Comproba que o teu titor/a está entre eles."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Última oportunidade para engadir o teu titor/a como coautor/a"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Despois do envío a lista de autores xa non se poderá modificar. Se houbo titoría e o teu titor/a non aparece arriba, fai clic en Editar no panel Colaboradores/as: se non, o traballo non se poderá validar como traballo final e o teu titor/a podería ser convidado a revisalo, o que comprometería a revisión con dobre anonimato.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Comprobei a lista de autores. Se este traballo foi titorizado, o meu titor/a figura como coautor/a. Entendo que non se poderán engadir coautores despois do envío.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Marca a declaración anterior para completar o envío."

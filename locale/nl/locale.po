@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: nl\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Waarschuwing co-auteur en begeleider"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Toont opvallende meldingen bij de stap voor auteurs en bij de laatste controlestap van de inzendwizard, die auteurs van begeleid werk eraan herinneren hun begeleider als co-auteur toe te voegen, en vraagt vóór het indienen om een bevestiging. Alle teksten zijn instelbaar en meertalig."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "De onderstaande velden zijn vooraf ingevuld met een standaardtekst in elke taal van het tijdschrift en kunnen vrij worden aangepast. Als een veld leeg blijft, wordt de standaardtekst van de plugin gebruikt."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Melding bij de stap voor auteurs"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Titel van de melding"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Tekst van de melding"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Bericht wanneer er maar één auteur is"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Bericht zodra een co-auteur is toegevoegd"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Melding bij de laatste controlestap"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Titel van de laatste melding"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Tekst van de laatste melding"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Bevestiging"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "De auteur moet de bevestiging aanvinken voordat de inzending kan worden voltooid"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Bevestiging alleen vereisen als de inzending één auteur heeft"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Tekst van de bevestiging"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Foutmelding wanneer de auteur probeert in te dienen zonder de bevestiging aan te vinken"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Begeleid werk? Voeg uw begeleider nu toe als co-auteur"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Gaat het om begeleid werk (een afstudeerproject, scriptie of bachelorwerkstuk)? Voeg uw begeleider <strong>in deze stap</strong> toe als co-auteur.</p><p>Na het indienen kan de auteurslijst niet meer worden gewijzigd, en het tijdschrift moet vanaf het begin weten wie uw begeleider is, zodat die nooit wordt uitgenodigd om het werk van de eigen student te beoordelen, wat de dubbelblinde recensie in gevaar zou brengen. Zonder de begeleider als co-auteur kan het werk bovendien niet als afstudeerwerk worden gevalideerd.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Deze inzending heeft maar één auteur. Is het werk begeleid, voeg uw begeleider dan nu toe als co-auteur."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Co-auteurs toegevoegd. Controleer of uw begeleider daarbij is."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Laatste kans om uw begeleider als co-auteur toe te voegen"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Na het indienen kan de auteurslijst niet meer worden gewijzigd. Is het werk begeleid en staat uw begeleider hierboven niet vermeld, klik dan op Wijzig in het paneel Auteurs: anders kan het werk niet als afstudeerwerk worden gevalideerd en kan uw begeleider worden uitgenodigd om het te beoordelen, wat de dubbelblinde recensie in gevaar brengt.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ik heb de auteurslijst gecontroleerd. Als dit werk begeleid is, staat mijn begeleider vermeld als co-auteur. Ik begrijp dat er na het indienen geen co-auteurs meer kunnen worden toegevoegd.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Vink de bevestiging hierboven aan om uw inzending te voltooien."

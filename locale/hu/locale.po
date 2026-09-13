@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hu\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Társszerzői és témavezetői figyelmeztetés"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Jól látható figyelmeztetéseket jelenít meg a beküldési varázsló Közreműködők lépésében és a záró áttekintő lépésben, emlékeztetve a témavezetés mellett készült munkák szerzőit, hogy témavezetőjüket vegyék fel társszerzőként, és a beküldés előtt nyugtázást kér. Minden szöveg testreszabható és többnyelvű."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Az alábbi mezők a folyóirat minden nyelvén alapértelmezett szöveggel előre ki vannak töltve, és szabadon módosíthatók. Ha egy mező üresen marad, a bővítmény alapértelmezett szövege kerül felhasználásra."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Figyelmeztetés a Közreműködők lépésben"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "A figyelmeztetés címe"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "A figyelmeztetés szövege"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Üzenet, ha csak egy szerző van"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Üzenet, miután társszerzőt adtak hozzá"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Figyelmeztetés a záró áttekintő lépésben"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "A záró figyelmeztetés címe"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "A záró figyelmeztetés szövege"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Nyugtázás"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "A beküldés befejezése előtt a szerzőnek kötelező bejelölnie a nyugtázást"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Nyugtázás megkövetelése csak akkor, ha a kéziratnak egyetlen szerzője van"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "A nyugtázás szövege"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Hibaüzenet, ha a szerző a nyugtázás bejelölése nélkül próbál beküldeni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Témavezetés mellett készült munka? Vegye fel most témavezetőjét társszerzőként"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Témavezetés mellett készült a munka (szakdolgozat, diplomamunka vagy egyéb hallgatói dolgozat)? Vegye fel témavezetőjét társszerzőként <strong>ebben a lépésben</strong>.</p><p>A beküldés után a szerzők listája nem módosítható, és a folyóiratnak kezdettől fogva tudnia kell, ki a témavezetője, hogy soha ne kérje fel őt saját hallgatója munkájának lektorálására, ami veszélyeztetné a kettős vak lektorálást. Ha a témavezető nem szerepel társszerzőként, a munka szakdolgozatként sem fogadható el.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Ennek a kéziratnak csak egy szerzője van. Ha a munka témavezetés mellett készült, vegye fel most témavezetőjét társszerzőként."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Társszerzők hozzáadva. Ellenőrizze, hogy témavezetője köztük van-e."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Utolsó lehetőség, hogy témavezetőjét társszerzőként felvegye"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>A beküldés után a szerzők listája már nem módosítható. Ha a munka témavezetés mellett készült, és témavezetője nem szerepel fent, kattintson a Szerkesztés gombra a Közreműködők részben: ellenkező esetben a munka nem fogadható el szakdolgozatként, és témavezetőjét felkérhetik a lektorálására, ami veszélyeztetné a kettős vak lektorálást.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ellenőriztem a szerzők listáját. Ha ez a munka témavezetés mellett készült, témavezetőm társszerzőként szerepel. Tudomásul veszem, hogy a beküldés után társszerző már nem adható hozzá.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "A beküldés befejezéséhez jelölje be a fenti nyugtázást."

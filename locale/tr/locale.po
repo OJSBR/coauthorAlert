@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: tr\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Ortak Yazar ve Danışman Uyarısı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Gönderi sihirbazının katkıda bulunanlar adımında ve son gözden geçirme adımında belirgin uyarılar gösterir; danışmanlı çalışmaların yazarlarına danışmanlarını ortak yazar olarak eklemelerini hatırlatır ve gönderimden önce bir onay beyanı ister. Tüm metinler yapılandırılabilir ve çok dillidir."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Aşağıdaki alanlar derginin her dilinde varsayılan metinle önceden doldurulmuş olarak gelir ve serbestçe değiştirilebilir. Bir alan boş bırakılırsa eklentinin varsayılan metni kullanılır."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Katkıda bulunanlar adımındaki uyarı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Uyarı başlığı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Uyarı metni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Yalnızca bir yazar olduğunda gösterilen mesaj"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Bir ortak yazar eklendiğinde gösterilen mesaj"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Son gözden geçirme adımındaki uyarı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Son uyarı başlığı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Son uyarı metni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Onay beyanı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Gönderiyi tamamlamadan önce yazarın onay beyanını işaretlemesini zorunlu kıl"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Onay beyanını yalnızca gönderinin tek yazarı olduğunda zorunlu kıl"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Onay beyanı metni"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Yazar işaretlemeden göndermeye çalıştığında gösterilen hata mesajı"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Danışmanlı bir çalışma mı? Danışmanınızı şimdi ortak yazar olarak ekleyin"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Danışman eşliğinde hazırlanmış bir çalışma mı (bitirme projesi, tez veya lisans çalışması)? Danışmanınızı <strong>bu adımda</strong> ortak yazar olarak ekleyin.</p><p>Gönderimden sonra yazar listesi değiştirilemez ve dergi, danışmanınızı kendi öğrencisinin çalışmasını değerlendirmeye asla davet etmemek için onu en başından bilmelidir; aksi hâlde çift taraflı kör hakemlik zedelenir. Danışman ortak yazar olarak eklenmezse çalışma bitirme projesi olarak da onaylanamaz.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Bu gönderinin yalnızca bir yazarı var. Çalışma danışmanlı ise danışmanınızı şimdi ortak yazar olarak ekleyin."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Ortak yazarlar eklendi. Danışmanınızın aralarında olduğundan emin olun."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Danışmanınızı ortak yazar olarak eklemek için son fırsat"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Gönderimden sonra yazar listesi artık değiştirilemez. Çalışma danışmanlı ise ve danışmanınız yukarıda listelenmiyorsa, Katkıda Bulunanlar panelinde Düzenle'ye tıklayın: aksi hâlde çalışma bitirme projesi olarak onaylanamaz ve danışmanınız çalışmayı değerlendirmeye davet edilebilir, bu da çift taraflı kör hakemliği zedeler.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Yazar listesini kontrol ettim. Bu çalışma danışmanlı ise danışmanım ortak yazar olarak listelenmiştir. Gönderimden sonra ortak yazar eklenemeyeceğini anlıyorum.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Gönderinizi tamamlamak için lütfen yukarıdaki onay beyanını işaretleyin."

@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: id\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Peringatan Penulis Pendamping dan Pembimbing"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Menampilkan pemberitahuan yang mencolok pada langkah Kontributor dan langkah tinjauan akhir dalam wizard pengiriman naskah, mengingatkan penulis karya yang dibimbing untuk menambahkan pembimbingnya sebagai penulis pendamping, serta mewajibkan pernyataan sebelum naskah dikirim. Semua teks dapat dikonfigurasi dan multibahasa."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Kolom di bawah ini sudah terisi teks default dalam setiap bahasa jurnal dan dapat diubah dengan bebas. Jika kolom dibiarkan kosong, teks default plugin akan digunakan."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Pemberitahuan pada langkah Kontributor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Judul pemberitahuan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Teks pemberitahuan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Pesan yang ditampilkan jika hanya ada satu penulis"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Pesan yang ditampilkan setelah penulis pendamping ditambahkan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Pemberitahuan pada langkah tinjauan akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Judul pemberitahuan akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Teks pemberitahuan akhir"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Pernyataan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Wajibkan penulis mencentang pernyataan sebelum menyelesaikan pengiriman naskah"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Wajibkan pernyataan hanya jika naskah memiliki satu penulis"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Teks pernyataan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Pesan kesalahan yang ditampilkan jika penulis mencoba mengirim tanpa mencentang pernyataan"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Karya yang dibimbing? Tambahkan pembimbing Anda sebagai penulis pendamping sekarang"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Karya ini dibuat di bawah bimbingan (tugas akhir, skripsi, atau makalah sarjana)? Tambahkan pembimbing Anda sebagai penulis pendamping <strong>pada langkah ini</strong>.</p><p>Setelah naskah dikirim, daftar penulis tidak dapat diubah, dan jurnal perlu mengetahui sejak awal siapa pembimbing Anda agar ia tidak pernah diundang meninjau karya mahasiswanya sendiri, yang akan merusak proses tinjauan buta ganda (double-blind). Tanpa pembimbing sebagai penulis pendamping, karya ini juga tidak dapat divalidasi sebagai tugas akhir.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Naskah ini hanya memiliki satu penulis. Jika karya ini dibimbing, tambahkan pembimbing Anda sebagai penulis pendamping sekarang."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Penulis pendamping telah ditambahkan. Pastikan pembimbing Anda termasuk di antaranya."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Kesempatan terakhir untuk menambahkan pembimbing Anda sebagai penulis pendamping"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Setelah naskah dikirim, daftar penulis tidak dapat diubah lagi. Jika karya ini dibimbing dan pembimbing Anda tidak tercantum di atas, klik Ubah pada panel Kontributor: jika tidak, karya ini tidak dapat divalidasi sebagai tugas akhir, dan pembimbing Anda dapat diundang untuk meninjaunya, yang merusak proses tinjauan buta ganda (double-blind).</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Saya telah memeriksa daftar penulis. Jika karya ini dibimbing, pembimbing saya tercantum sebagai penulis pendamping. Saya memahami bahwa penulis pendamping tidak dapat ditambahkan setelah naskah dikirim.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Centang pernyataan di atas untuk menyelesaikan pengiriman naskah."

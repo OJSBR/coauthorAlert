@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: es\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alerta de Coautoría y Tutor"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Muestra avisos destacados en la etapa de colaboradores y en la revisión final del envío, recordando a los autores de trabajos tutorizados que añadan a su tutor como coautor, y exige una declaración antes de enviar. Todos los textos son configurables y multilingües."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Los campos siguientes ya vienen rellenados con una redacción predeterminada en cada idioma de la revista y pueden modificarse libremente. Si un campo queda vacío, se usa el texto predeterminado del módulo."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Aviso en la etapa de coautores"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Título del aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Texto del aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mensaje mostrado cuando hay un solo autor"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mensaje mostrado cuando ya hay coautores"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Aviso en la revisión final del envío"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Título del aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Texto del aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Declaración de conocimiento"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Exigir que el autor marque la declaración para completar el envío"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Exigir la declaración solo cuando el envío tenga un único autor"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Texto de la declaración"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mensaje de error al intentar enviar sin marcar la declaración"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "¿Trabajo tutorizado? Añada a su tutor como coautor ahora"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>¿Trabajo realizado bajo tutoría (trabajo final de grado, monografía o artículo de grado)? Añada a su tutor como coautor <strong>en esta etapa</strong>.</p><p>Tras el envío la lista de autores no puede modificarse, y la revista necesita saber desde el principio quién es el tutor para no invitarlo a evaluar el trabajo de su propio estudiante, lo que comprometería la evaluación doble ciego. Sin el tutor como coautor, el trabajo tampoco se validará como trabajo final de grado.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Este envío tiene un solo autor. Si hubo tutoría, añada a su tutor como coautor ahora."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coautores añadidos. Compruebe que su tutor está entre ellos."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Última oportunidad para añadir a su tutor como coautor"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Tras el envío, la lista de autores ya no podrá modificarse. Si hubo tutoría y su tutor no aparece arriba, haga clic en Editar en el bloque Colaboradores: sin él, el trabajo no se validará como trabajo final de grado y el tutor podría ser invitado a evaluarlo, comprometiendo la evaluación doble ciego.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>He revisado la lista de autores. Si este trabajo fue tutorizado, mi tutor figura como coautor. Entiendo que no será posible añadir coautores después del envío.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Marque la declaración anterior para completar el envío."

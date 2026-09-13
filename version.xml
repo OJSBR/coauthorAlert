@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/coauthorAlert/version.xml
+  *
+  * Copyright (c) 2026 OJSBR (https://ojsbr.com)
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  *
+  * Warns authors of supervised work, on the contributors and review steps of
+  * the submission wizard, to add their supervisor as a co-author, and asks for
+  * an acknowledgement before the submission is completed.
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>coauthorAlert</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<date>2026-09-13</date>
+	<lazy-load>1</lazy-load>
+	<class>CoauthorAlertPlugin</class>
+</version>

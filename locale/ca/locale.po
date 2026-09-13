@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ca\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alerta de coautoria i tutor/a"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Mostra avisos destacats al pas de col·laboradors i al pas de revisió final de l'assistent de tramesa, que recorden als autors de treballs tutelats que han d'afegir el seu tutor/a com a coautor/a, i exigeix una declaració abans de trametre. Tots els textos són configurables i multilingües."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Els camps següents ja vénen emplenats amb un text predeterminat en cada idioma de la revista i es poden modificar lliurement. Si un camp es deixa buit, s'utilitza el text predeterminat del connector."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Avís al pas de col·laboradors"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Títol de l'avís"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Text de l'avís"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Missatge que es mostra quan només hi ha un autor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Missatge que es mostra quan ja s'ha afegit un coautor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Avís al pas de revisió final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Títol de l'avís final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Text de l'avís final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Declaració"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Exigeix que l'autor/a marqui la declaració abans de completar la tramesa"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Exigeix la declaració només quan la tramesa té un únic autor/a"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Text de la declaració"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Missatge d'error que es mostra quan l'autor/a intenta trametre sense marcar-la"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Treball tutelat? Afegiu ara el vostre tutor/a com a coautor/a"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>És un treball tutelat (treball final, de fi de grau o de fi de màster)? Afegiu el vostre tutor/a com a coautor/a <strong>en aquest pas</strong>.</p><p>Després de la tramesa la llista d'autors no es pot modificar, i la revista ha de saber des del principi qui és el vostre tutor/a perquè no se'l convidi mai a revisar el treball del seu propi estudiant, cosa que comprometria la revisió doblement anònima. Sense el tutor/a com a coautor/a, el treball tampoc no es podrà validar com a treball final.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Aquesta tramesa només té un autor/a. Si el treball ha estat tutelat, afegiu ara el vostre tutor/a com a coautor/a."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "S'han afegit coautors. Comproveu que el vostre tutor/a hi és."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Última oportunitat per afegir el vostre tutor/a com a coautor/a"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Després de la tramesa la llista d'autors ja no es podrà modificar. Si el treball ha estat tutelat i el vostre tutor/a no apareix a dalt, feu clic a Edita al tauler Col·laboradors/ores: en cas contrari, el treball no es podrà validar com a treball final i el vostre tutor/a podria ser convidat a revisar-lo, cosa que comprometria la revisió doblement anònima.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>He comprovat la llista d'autors. Si aquest treball ha estat tutelat, el meu tutor/a hi figura com a coautor/a. Entenc que no es poden afegir coautors després de la tramesa.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Marqueu la declaració anterior per completar la tramesa."

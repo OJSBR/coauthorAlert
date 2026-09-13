@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "合著者与指导教师提醒"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "在投稿向导的“贡献者”步骤和最终检查步骤中显示醒目的提示，提醒在指导下完成的作品的作者将指导教师添加为合著者，并要求在提交前勾选确认声明。所有文本均可配置，并支持多语言。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "以下字段已预先填入期刊各语言的默认文本，可自由修改。如字段留空，将使用插件的默认文本。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "“贡献者”步骤中的提示"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "提示标题"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "提示内容"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "仅有一位作者时显示的消息"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "添加合著者后显示的消息"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "最终检查步骤中的提示"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "最终提示标题"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "最终提示内容"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "确认声明"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "要求作者在完成投稿前勾选确认声明"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "仅在投稿只有一位作者时要求确认声明"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "确认声明文本"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "作者未勾选确认声明即尝试提交时显示的错误消息"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "在指导下完成的作品？请立即将指导教师添加为合著者"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>作品是在指导下完成的（毕业论文、学位论文或本科生论文）？请<strong>在此步骤</strong>将指导教师添加为合著者。</p><p>提交后作者名单将无法更改，期刊需要从一开始就知道您的指导教师是谁，以免邀请其评审自己学生的作品，否则将破坏双盲审稿。如果指导教师未列为合著者，该作品也无法被认定为毕业论文。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "此投稿只有一位作者。如果作品是在指导下完成的，请立即将指导教师添加为合著者。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "已添加合著者。请确认其中包括您的指导教师。"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "添加指导教师为合著者的最后机会"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>提交后作者名单将无法再更改。如果作品是在指导下完成的，而您的指导教师未在上方列出，请点击“贡献者”栏中的“编辑”：否则该作品将无法被认定为毕业论文，您的指导教师也可能被邀请评审该作品，从而破坏双盲审稿。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>我已核对作者名单。如果此作品是在指导下完成的，我的指导教师已列为合著者。我了解提交后无法再添加合著者。</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "请勾选上方的确认声明以完成投稿。"

@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: el\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Ειδοποίηση Συν-συγγραφέα και Επιβλέποντα"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Εμφανίζει ευδιάκριτες ειδοποιήσεις στο βήμα των συντελεστών και στο βήμα τελικού ελέγχου της υποβολής, υπενθυμίζοντας στους συγγραφείς εργασιών υπό επίβλεψη να προσθέσουν τον επιβλέποντά τους ως συν-συγγραφέα, και απαιτεί επιβεβαίωση πριν από την υποβολή. Όλα τα κείμενα είναι παραμετροποιήσιμα και πολύγλωσσα."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Τα παρακάτω πεδία είναι προσυμπληρωμένα με προεπιλεγμένη διατύπωση σε κάθε γλώσσα του περιοδικού και μπορούν να αλλάξουν ελεύθερα. Αν ένα πεδίο μείνει κενό, χρησιμοποιείται το προεπιλεγμένο κείμενο του πρόσθετου."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Ειδοποίηση στο βήμα των συντελεστών"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Τίτλος ειδοποίησης"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Κείμενο ειδοποίησης"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Μήνυμα που εμφανίζεται όταν υπάρχει μόνο ένας συγγραφέας"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Μήνυμα που εμφανίζεται μετά την προσθήκη συν-συγγραφέα"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Ειδοποίηση στο βήμα τελικού ελέγχου"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Τίτλος τελικής ειδοποίησης"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Κείμενο τελικής ειδοποίησης"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Επιβεβαίωση"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Απαίτηση από τον συγγραφέα να τσεκάρει την επιβεβαίωση πριν ολοκληρώσει την υποβολή"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Απαίτηση επιβεβαίωσης μόνο όταν η υποβολή έχει έναν συγγραφέα"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Κείμενο επιβεβαίωσης"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Μήνυμα σφάλματος όταν ο συγγραφέας επιχειρεί υποβολή χωρίς να την τσεκάρει"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Εργασία υπό επίβλεψη; Προσθέστε τώρα τον επιβλέποντά σας ως συν-συγγραφέα"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Εργασία υπό επίβλεψη (πτυχιακή, διπλωματική ή προπτυχιακή εργασία); Προσθέστε τον επιβλέποντά σας ως συν-συγγραφέα <strong>σε αυτό το βήμα</strong>.</p><p>Μετά την υποβολή ο κατάλογος συγγραφέων δεν μπορεί να αλλάξει, και το περιοδικό πρέπει να γνωρίζει από την αρχή ποιος είναι ο επιβλέπων σας, ώστε να μην προσκληθεί ποτέ να αξιολογήσει την εργασία του δικού του φοιτητή, κάτι που θα έθετε σε κίνδυνο τη διπλή «τυφλή» αξιολόγηση. Χωρίς τον επιβλέποντα ως συν-συγγραφέα, η εργασία επίσης δεν μπορεί να πιστοποιηθεί ως πτυχιακή εργασία.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Αυτή η υποβολή έχει μόνο έναν συγγραφέα. Αν η εργασία έγινε υπό επίβλεψη, προσθέστε τώρα τον επιβλέποντά σας ως συν-συγγραφέα."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Προστέθηκαν συν-συγγραφείς. Βεβαιωθείτε ότι ο επιβλέπων σας είναι ανάμεσά τους."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Τελευταία ευκαιρία να προσθέσετε τον επιβλέποντά σας ως συν-συγγραφέα"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Μετά την υποβολή ο κατάλογος συγγραφέων δεν θα μπορεί πλέον να αλλάξει. Αν η εργασία έγινε υπό επίβλεψη και ο επιβλέπων σας δεν εμφανίζεται παραπάνω, κάντε κλικ στο Επεξεργασία στο πλαίσιο Συντελεστές: διαφορετικά η εργασία δεν μπορεί να πιστοποιηθεί ως πτυχιακή εργασία και ο επιβλέπων σας μπορεί να προσκληθεί να την αξιολογήσει, θέτοντας σε κίνδυνο τη διπλή «τυφλή» αξιολόγηση.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Έλεγξα τον κατάλογο συγγραφέων. Αν η εργασία έγινε υπό επίβλεψη, ο επιβλέπων μου αναφέρεται ως συν-συγγραφέας. Κατανοώ ότι δεν είναι δυνατή η προσθήκη συν-συγγραφέων μετά την υποβολή.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Τσεκάρετε την παραπάνω επιβεβαίωση για να ολοκληρώσετε την υποβολή σας."

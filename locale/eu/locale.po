@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: eu\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Egilekidetza eta zuzendariaren abisua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Abisu nabarmenak erakusten ditu bidalketa-morroiaren Kolaboratzaileak urratsean eta azken berrikuspen-urratsean, zuzendaritzapean egindako lanen egileei gogorarazteko zuzendaria egilekide gisa gehitu behar dutela, eta onarpen bat eskatzen du bidali aurretik. Testu guztiak konfiguragarriak eta eleanitzak dira."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Beheko eremuak aldizkariaren hizkuntza bakoitzeko testu lehenetsiarekin beteta datoz, eta askatasunez alda daitezke. Eremu bat hutsik uzten bada, pluginaren testu lehenetsia erabiltzen da."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Abisua Kolaboratzaileak urratsean"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Abisuaren izenburua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Abisuaren testua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Egile bakarra dagoenean erakusten den mezua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Egilekide bat gehitu ondoren erakusten den mezua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Abisua azken berrikuspen-urratsean"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Azken abisuaren izenburua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Azken abisuaren testua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Onarpena"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Egileari onarpena markatzea eskatu bidalketa amaitu aurretik"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Onarpena eskatu soilik bidalketak egile bakarra duenean"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Onarpenaren testua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Egilea onarpena markatu gabe bidaltzen saiatzean erakusten den errore-mezua"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Zuzendaritzapeko lana? Gehitu orain zure zuzendaria egilekide gisa"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Zuzendaritzapean egindako lana da (Gradu Amaierako Lana, tesina edo graduko artikulua)? Gehitu zure zuzendaria egilekide gisa <strong>urrats honetan</strong>.</p><p>Bidali ondoren ezin da egileen zerrenda aldatu, eta aldizkariak hasieratik jakin behar du nor den zure zuzendaria, bere ikaslearen lana ebaluatzera inoiz gonbida ez dezan, horrek ebaluazio itsu bikoitza arriskuan jarriko bailuke. Zuzendaria egilekide gisa agertzen ez bada, lana ezingo da Gradu Amaierako Lan gisa baliozkotu.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Bidalketa honek egile bakarra du. Lana zuzendaritzapean egin bazen, gehitu orain zure zuzendaria egilekide gisa."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Egilekideak gehitu dira. Egiaztatu zure zuzendaria haien artean dagoela."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Zure zuzendaria egilekide gisa gehitzeko azken aukera"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Bidali ondoren ezingo da egileen zerrenda aldatu. Lana zuzendaritzapean egin bazen eta zure zuzendaria goian agertzen ez bada, egin klik Editatu botoian Kolaboratzaileak atalean: bestela, lana ezingo da Gradu Amaierako Lan gisa baliozkotu, eta zure zuzendaria lana ebaluatzera gonbida liteke, ebaluazio itsu bikoitza arriskuan jarriz.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Egileen zerrenda egiaztatu dut. Lan hau zuzendaritzapean egin bazen, nire zuzendaria egilekide gisa agertzen da. Badakit bidali ondoren ezingo dela egilekiderik gehitu.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Markatu goiko onarpena bidalketa amaitzeko."

@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pt\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alerta de Coautoria e Orientador"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Apresenta avisos destacados no passo de contribuidores e no passo de revisão final da submissão, lembrando os autores de trabalhos orientados de adicionar o orientador como coautor, e exige uma declaração antes de submeter. Todos os textos são configuráveis e multilingues."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Os campos abaixo vêm preenchidos com um texto predefinido em cada idioma da revista e podem ser alterados livremente. Se um campo ficar vazio, é utilizado o texto predefinido do plugin."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Aviso no passo de contribuidores"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Título do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Texto do aviso"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Mensagem apresentada quando existe apenas um autor"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Mensagem apresentada quando já foi adicionado um coautor"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Aviso no passo de revisão final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Título do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Texto do aviso final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Declaração"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Exigir que o autor assinale a declaração para concluir a submissão"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Exigir a declaração apenas quando a submissão tiver um único autor"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Texto da declaração"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Mensagem de erro apresentada quando o autor tenta submeter sem assinalar a declaração"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Trabalho orientado? Adicione já o seu orientador como coautor"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Trabalho realizado sob orientação (projeto final, dissertação ou trabalho de licenciatura)? Adicione o seu orientador como coautor <strong>neste passo</strong>.</p><p>Após a submissão, a lista de autores não pode ser alterada, e a revista precisa de saber desde o início quem é o seu orientador, para nunca o convidar a rever o trabalho do seu próprio estudante, o que comprometeria a revisão duplamente anónima. Sem o orientador como coautor, o trabalho também não poderá ser validado como trabalho final de curso.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Esta submissão tem apenas um autor. Se houve orientação, adicione já o seu orientador como coautor."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coautores adicionados. Confirme que o seu orientador está entre eles."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Última oportunidade para adicionar o seu orientador como coautor"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Após a submissão, a lista de autores já não poderá ser alterada. Se houve orientação e o seu orientador não aparece acima, clique em Editar no painel Contribuidores: caso contrário, o trabalho não poderá ser validado como trabalho final de curso e o seu orientador poderá ser convidado a revê-lo, comprometendo a revisão duplamente anónima.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Verifiquei a lista de autores. Se este trabalho teve orientação, o meu orientador consta como coautor. Compreendo que não é possível adicionar coautores após a submissão.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Assinale a declaração acima para concluir a submissão."

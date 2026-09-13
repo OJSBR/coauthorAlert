@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ru\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Напоминание о соавторстве и научном руководителе"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Показывает заметные предупреждения на шаге «Авторы» и на завершающем шаге проверки в мастере отправки материала, напоминая авторам работ, выполненных под руководством, указать научного руководителя в качестве соавтора, и требует подтверждения перед отправкой. Все тексты настраиваются и поддерживают несколько языков."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Поля ниже заранее заполнены текстом по умолчанию на каждом языке журнала и могут свободно изменяться. Если поле оставлено пустым, используется текст модуля по умолчанию."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Предупреждение на шаге «Авторы»"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Заголовок предупреждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Текст предупреждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Сообщение, если указан только один автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Сообщение после добавления соавтора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Предупреждение на завершающем шаге проверки"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Заголовок итогового предупреждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Текст итогового предупреждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Подтверждение"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Требовать, чтобы автор отметил подтверждение перед завершением отправки"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Требовать подтверждение, только если у материала один автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Текст подтверждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Сообщение об ошибке, если автор пытается отправить материал без отметки подтверждения"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Работа выполнена под руководством? Добавьте научного руководителя как соавтора сейчас"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Работа выполнена под руководством (выпускная квалификационная, дипломная или курсовая работа)? Добавьте научного руководителя в качестве соавтора <strong>на этом шаге</strong>.</p><p>После отправки список авторов изменить нельзя, а журналу нужно с самого начала знать, кто ваш руководитель, чтобы никогда не пригласить его рецензировать работу собственного студента, что нарушило бы двойное слепое рецензирование. Без руководителя в числе соавторов работа также не может быть засчитана как выпускная.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "У этого материала только один автор. Если работа выполнена под руководством, добавьте научного руководителя как соавтора сейчас."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Соавторы добавлены. Убедитесь, что ваш научный руководитель среди них."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Последняя возможность добавить научного руководителя как соавтора"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>После отправки список авторов изменить будет нельзя. Если работа выполнена под руководством, а ваш руководитель не указан выше, нажмите «Редактировать» в разделе «Авторы»: иначе работа не может быть засчитана как выпускная, а ваш руководитель может быть приглашён её рецензировать, что нарушило бы двойное слепое рецензирование.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Я проверил(а) список авторов. Если эта работа выполнена под руководством, мой научный руководитель указан как соавтор. Я понимаю, что после отправки добавить соавторов нельзя.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Отметьте подтверждение выше, чтобы завершить отправку."

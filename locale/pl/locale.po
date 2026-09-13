@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pl\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Powiadomienie o współautorstwie i promotorze"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Wyświetla wyraźne komunikaty w kroku Autorzy oraz w końcowym kroku przeglądu kreatora zgłoszenia, przypominając autorom prac pisanych pod kierunkiem promotora, aby dodali go jako współautora, i wymaga potwierdzenia przed wysłaniem. Wszystkie teksty są konfigurowalne i wielojęzyczne."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Poniższe pola są wstępnie wypełnione domyślną treścią w każdym języku czasopisma i można je dowolnie zmieniać. Jeśli pole pozostanie puste, zostanie użyty domyślny tekst wtyczki."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Komunikat w kroku Autorzy"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Nagłówek komunikatu"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Treść komunikatu"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Komunikat wyświetlany, gdy jest tylko jeden autor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Komunikat wyświetlany po dodaniu współautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Komunikat w końcowym kroku przeglądu"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Nagłówek komunikatu końcowego"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Treść komunikatu końcowego"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Potwierdzenie"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Wymagaj, aby autor zaznaczył potwierdzenie przed zakończeniem zgłoszenia"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Wymagaj potwierdzenia tylko wtedy, gdy zgłoszenie ma jednego autora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Treść potwierdzenia"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Komunikat o błędzie wyświetlany, gdy autor próbuje wysłać zgłoszenie bez zaznaczenia potwierdzenia"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Praca pod kierunkiem promotora? Dodaj go teraz jako współautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Praca powstała pod kierunkiem promotora (praca dyplomowa, licencjacka lub inżynierska)? Dodaj promotora jako współautora <strong>w tym kroku</strong>.</p><p>Po wysłaniu zgłoszenia listy autorów nie można zmienić, a czasopismo musi od początku wiedzieć, kto jest Twoim promotorem, aby nigdy nie zaprosić go do recenzowania pracy własnego studenta, co naruszyłoby zasadę recenzji podwójnie ślepej. Bez promotora jako współautora praca nie może też zostać uznana za pracę dyplomową.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "To zgłoszenie ma tylko jednego autora. Jeśli praca powstała pod kierunkiem promotora, dodaj go teraz jako współautora."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Dodano współautorów. Upewnij się, że jest wśród nich Twój promotor."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Ostatnia szansa, aby dodać promotora jako współautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Po wysłaniu zgłoszenia listy autorów nie będzie można już zmienić. Jeśli praca powstała pod kierunkiem promotora, a nie ma go na liście powyżej, kliknij Edycja w sekcji Autorzy: w przeciwnym razie praca nie zostanie uznana za pracę dyplomową, a promotor mógłby zostać zaproszony do jej recenzowania, co naruszyłoby zasadę recenzji podwójnie ślepej.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Sprawdziłem/-am listę autorów. Jeśli ta praca powstała pod kierunkiem promotora, jest on wymieniony jako współautor. Rozumiem, że po wysłaniu zgłoszenia nie można dodać współautorów.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Zaznacz powyższe potwierdzenie, aby zakończyć zgłoszenie."

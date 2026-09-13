@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sl\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Opozorilo o soavtorju in mentorju"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Prikaže izpostavljena opozorila v koraku za sodelujoče in v koraku končnega pregleda oddaje prispevka, ki avtorje del, nastalih pod mentorstvom, opomnijo, naj mentorja dodajo kot soavtorja, ter pred oddajo zahteva potrditev. Vsa besedila so nastavljiva in večjezična."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Spodnja polja so vnaprej izpolnjena s privzetim besedilom v vseh jezikih revije in jih lahko poljubno spremenite. Če polje ostane prazno, se uporabi privzeto besedilo vtičnika."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Opozorilo v koraku za sodelujoče"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Naslov opozorila"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Besedilo opozorila"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Sporočilo, ko je naveden le en avtor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Sporočilo po dodajanju soavtorja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Opozorilo v koraku končnega pregleda"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Naslov končnega opozorila"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Besedilo končnega opozorila"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Potrditev"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Zahtevaj, da avtor pred zaključkom oddaje označi potrditev"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Zahtevaj potrditev le, kadar ima prispevek enega samega avtorja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Besedilo potrditve"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Sporočilo o napaki, ko avtor poskuša oddati brez označene potrditve"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Delo pod mentorstvom? Zdaj dodajte mentorja kot soavtorja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Delo, nastalo pod mentorstvom (zaključno delo, diplomsko delo ali dodiplomski članek)? Mentorja dodajte kot soavtorja <strong>v tem koraku</strong>.</p><p>Po oddaji seznama avtorjev ni mogoče spremeniti, revija pa mora že od začetka vedeti, kdo je vaš mentor, da ga nikoli ne povabi k recenziji dela lastnega študenta, kar bi ogrozilo dvojno slepo recenzijo. Brez mentorja kot soavtorja dela tudi ni mogoče potrditi kot zaključno delo.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Ta prispevek ima le enega avtorja. Če je delo nastalo pod mentorstvom, zdaj dodajte mentorja kot soavtorja."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Soavtorji so dodani. Preverite, ali je med njimi vaš mentor."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Zadnja priložnost, da mentorja dodate kot soavtorja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Po oddaji seznama avtorjev ne bo več mogoče spremeniti. Če je delo nastalo pod mentorstvom in vaš mentor zgoraj ni naveden, kliknite Uredi v razdelku Sodelujoči: sicer dela ne bo mogoče potrditi kot zaključno delo, vaš mentor pa bi lahko bil povabljen k njegovi recenziji, kar bi ogrozilo dvojno slepo recenzijo.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Preveril/-a sem seznam avtorjev. Če je to delo nastalo pod mentorstvom, je moj mentor naveden kot soavtor. Razumem, da soavtorjev po oddaji ni mogoče dodati.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Za zaključek oddaje označite zgornjo potrditev."

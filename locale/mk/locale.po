@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: mk\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Предупредување за коавтор и ментор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Прикажува истакнати предупредувања во чекорот за соработници и во чекорот за конечен преглед на поднесувањето, потсетувајќи ги авторите на трудови под менторство да го додадат менторот како коавтор, и бара потврда пред поднесувањето. Сите текстови се прилагодливи и повеќејазични."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Полињата подолу се претходно пополнети со стандарден текст на секој од јазиците на списанието и можат слободно да се менуваат. Ако полето остане празно, се користи стандардниот текст на плагинот."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Предупредување во чекорот за соработници"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Наслов на предупредувањето"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Текст на предупредувањето"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Порака што се прикажува кога има само еден автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Порака што се прикажува откако ќе се додаде коавтор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Предупредување во чекорот за конечен преглед"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Наслов на конечното предупредување"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Текст на конечното предупредување"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Потврда"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Барај авторот да ја означи потврдата пред да го заврши поднесувањето"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Барај потврда само кога поднесокот има еден автор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Текст на потврдата"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Порака за грешка кога авторот ќе се обиде да поднесе без да ја означи потврдата"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Труд под менторство? Додајте го менторот како коавтор сега"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Труд изработен под менторство (дипломска работа, теза или додипломски труд)? Додајте го менторот како коавтор <strong>во овој чекор</strong>.</p><p>По поднесувањето листата на автори не може да се менува, а списанието треба од самиот почеток да знае кој е вашиот ментор, за никогаш да не биде поканет да го рецензира трудот на сопствениот студент, што би го нарушило двојно слепото рецензирање. Без менторот како коавтор, трудот исто така не може да се признае како дипломска работа.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Овој поднесок има само еден автор. Ако трудот е под менторство, додајте го менторот како коавтор сега."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Коавторите се додадени. Проверете дали менторот е меѓу нив."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Последна можност да го додадете менторот како коавтор"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>По поднесувањето листата на автори повеќе не може да се менува. Ако трудот е под менторство, а менторот не е наведен погоре, кликнете Уреди во панелот Соработници: во спротивно трудот не може да се признае како дипломска работа, а менторот може да биде поканет да го рецензира, со што се нарушува двојно слепото рецензирање.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Ја проверив листата на автори. Ако овој труд е под менторство, мојот ментор е наведен како коавтор. Разбирам дека по поднесувањето не може да се додаваат коавтори.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Означете ја потврдата погоре за да го завршите поднесувањето."

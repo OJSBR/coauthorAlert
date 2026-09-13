@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: cs\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Upozornění na spoluautorství a vedoucího práce"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Zobrazuje výrazná upozornění v kroku Přispěvatelé a v závěrečné kontrole průvodce podáním příspěvku, která autorům prací vzniklých pod vedením připomínají, aby uvedli vedoucího práce jako spoluautora, a před odesláním vyžaduje potvrzení. Všechny texty lze upravit a jsou vícejazyčné."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Pole níže jsou předvyplněna výchozím zněním v každém jazyce časopisu a lze je libovolně měnit. Pokud pole zůstane prázdné, použije se výchozí text pluginu."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Upozornění v kroku Přispěvatelé"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Nadpis upozornění"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Text upozornění"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Zpráva zobrazená, pokud je uveden jen jeden autor"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Zpráva zobrazená po přidání spoluautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Upozornění v kroku závěrečné kontroly"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Nadpis závěrečného upozornění"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Text závěrečného upozornění"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Potvrzení"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Vyžadovat, aby autor před dokončením podání zaškrtl potvrzení"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Vyžadovat potvrzení pouze tehdy, má-li příspěvek jediného autora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Text potvrzení"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Chybová zpráva zobrazená, pokud se autor pokusí příspěvek odeslat bez zaškrtnutí potvrzení"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Práce vznikla pod vedením? Uveďte nyní vedoucího práce jako spoluautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Vznikla práce pod vedením (závěrečná, bakalářská či diplomová práce)? Uveďte vedoucího práce jako spoluautora <strong>v tomto kroku</strong>.</p><p>Po odeslání již nelze seznam autorů změnit a časopis musí od začátku vědět, kdo je vaším vedoucím, aby jej nikdy nepozval k recenzi práce jeho vlastního studenta, což by narušilo oboustranně anonymní recenzní řízení. Bez vedoucího jako spoluautora nelze práci ani uznat jako závěrečnou práci.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Tento příspěvek má jen jednoho autora. Pokud práce vznikla pod vedením, uveďte nyní vedoucího práce jako spoluautora."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Spoluautoři byli přidáni. Zkontrolujte, že je mezi nimi váš vedoucí práce."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Poslední možnost uvést vedoucího práce jako spoluautora"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Po odeslání již nelze seznam autorů změnit. Pokud práce vznikla pod vedením a váš vedoucí není uveden výše, klikněte na Editovat v části Přispěvatelé: jinak práci nelze uznat jako závěrečnou práci a váš vedoucí by mohl být pozván k její recenzi, což by narušilo oboustranně anonymní recenzní řízení.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Zkontroloval(a) jsem seznam autorů. Pokud tato práce vznikla pod vedením, je můj vedoucí práce uveden jako spoluautor. Beru na vědomí, že po odeslání již nelze spoluautory přidat.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Pro dokončení podání zaškrtněte prosím potvrzení výše."

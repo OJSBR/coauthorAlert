@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ar\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "تنبيه المؤلف المشارك والمشرف"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "تعرض تنبيهات بارزة في خطوة المساهمين وفي خطوة المراجعة النهائية لتقديم طلب النشر، تذكّر مؤلفي الأعمال المُشرف عليها بإضافة المشرف بصفته مؤلفاً مشاركاً، وتطلب إقراراً قبل التقديم. جميع النصوص قابلة للتعديل ومتعددة اللغات."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "تأتي الحقول أدناه معبأة مسبقاً بصياغة افتراضية بكل لغة من لغات المجلة، ويمكن تعديلها بحرية. إذا تُرك حقل فارغاً، يُستخدم النص الافتراضي للإضافة."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "تنبيه في خطوة المساهمين"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "عنوان التنبيه"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "نص التنبيه"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "رسالة تظهر عندما يوجد مؤلف واحد فقط"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "رسالة تظهر بعد إضافة مؤلف مشارك"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "تنبيه في خطوة المراجعة النهائية"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "عنوان التنبيه النهائي"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "نص التنبيه النهائي"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "الإقرار"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "إلزام المؤلف بتحديد الإقرار قبل إنهاء التقديم"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "طلب الإقرار فقط عندما يكون لطلب النشر مؤلف واحد"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "نص الإقرار"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "رسالة الخطأ التي تظهر عند محاولة التقديم دون تحديد الإقرار"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "عمل تحت إشراف؟ أضف مشرفك بصفته مؤلفاً مشاركاً الآن"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>هل هذا العمل منجز تحت إشراف (مشروع تخرج أو رسالة أو بحث جامعي)؟ أضف مشرفك بصفته مؤلفاً مشاركاً <strong>في هذه الخطوة</strong>.</p><p>بعد التقديم لا يمكن تغيير قائمة المؤلفين، وتحتاج المجلة إلى معرفة مشرفك منذ البداية حتى لا تتم دعوته أبداً إلى تحكيم عمل طالبه، مما يُخل بالتحكيم مزدوج السرية. ومن دون المشرف بصفته مؤلفاً مشاركاً، لا يمكن أيضاً اعتماد العمل بوصفه مشروع تخرج.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "لطلب النشر هذا مؤلف واحد فقط. إذا كان العمل تحت إشراف، فأضف مشرفك بصفته مؤلفاً مشاركاً الآن."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "تمت إضافة مؤلفين مشاركين. تأكد من أن مشرفك من بينهم."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "الفرصة الأخيرة لإضافة مشرفك بصفته مؤلفاً مشاركاً"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>بعد التقديم لن يعود بالإمكان تغيير قائمة المؤلفين. إذا كان العمل تحت إشراف ولم يظهر مشرفك أعلاه، فانقر على تعديل في لوحة المساهمون: وإلا فلن يمكن اعتماد العمل بوصفه مشروع تخرج، وقد تتم دعوة مشرفك إلى تحكيمه، مما يُخل بالتحكيم مزدوج السرية.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>لقد راجعت قائمة المؤلفين. إذا كان هذا العمل تحت إشراف، فإن مشرفي مُدرج بصفته مؤلفاً مشاركاً. وأدرك أنه لا يمكن إضافة مؤلفين مشاركين بعد التقديم.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "يرجى تحديد الإقرار أعلاه لإنهاء التقديم."

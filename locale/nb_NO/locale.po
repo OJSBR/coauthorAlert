@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: nb_NO\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Varsel om medforfatter og veileder"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Viser tydelige varsler i trinnet for bidragsytere og i det siste gjennomgangstrinnet i innleveringsveiviseren, som minner forfattere av veiledede arbeider om å legge til veilederen sin som medforfatter, og krever en bekreftelse før innlevering. Alle tekster kan konfigureres og er flerspråklige."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Feltene nedenfor er forhåndsutfylt med en standardtekst på hvert av tidsskriftets språk og kan endres fritt. Hvis et felt står tomt, brukes standardteksten til programtillegget."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Varsel i trinnet for bidragsytere"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Overskrift for varselet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Tekst i varselet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Melding som vises når det bare er én forfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Melding som vises når en medforfatter er lagt til"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Varsel i det siste gjennomgangstrinnet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Overskrift for det siste varselet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Tekst i det siste varselet"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Bekreftelse"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Krev at forfatteren krysser av for bekreftelsen før innleveringen kan fullføres"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Krev bekreftelsen bare når innleveringen har én forfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Tekst i bekreftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Feilmelding som vises når forfatteren prøver å sende inn uten å krysse av for bekreftelsen"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Veiledet arbeid? Legg til veilederen din som medforfatter nå"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Er dette et veiledet arbeid (avsluttende oppgave, masteroppgave eller bacheloroppgave)? Legg til veilederen din som medforfatter <strong>i dette trinnet</strong>.</p><p>Etter innlevering kan forfatterlisten ikke endres, og tidsskriftet må vite fra starten hvem veilederen din er, slik at veilederen aldri blir invitert til å vurdere arbeidet til sin egen student, noe som ville svekke den dobbelt anonyme fagfellevurderingen. Uten veilederen som medforfatter kan arbeidet heller ikke godkjennes som avsluttende oppgave.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Denne innleveringen har bare én forfatter. Hvis arbeidet var veiledet, legg til veilederen din som medforfatter nå."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Medforfattere lagt til. Kontroller at veilederen din er blant dem."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Siste sjanse til å legge til veilederen din som medforfatter"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Etter innlevering kan forfatterlisten ikke lenger endres. Hvis arbeidet var veiledet og veilederen din ikke står oppført ovenfor, klikk på Rediger i panelet Bidragsytere: ellers kan arbeidet ikke godkjennes som avsluttende oppgave, og veilederen din kan bli invitert til å vurdere det, noe som svekker den dobbelt anonyme fagfellevurderingen.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Jeg har kontrollert forfatterlisten. Hvis dette arbeidet var veiledet, står veilederen min oppført som medforfatter. Jeg forstår at medforfattere ikke kan legges til etter innlevering.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Kryss av for bekreftelsen ovenfor for å fullføre innleveringen."

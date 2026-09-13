@@ -1,0 +1,169 @@
+/**
+ * plugins/generic/coauthorAlert/styles/coauthorAlert.css
+ *
+ * Copyright (c) 2026 OJSBR (https://ojsbr.com)
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ */
+
+.coauthorAlert {
+	margin: 1.5rem 0 0.5rem;
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+
+.coauthorAlert__banner {
+	display: flex;
+	gap: 0.875rem;
+	padding: 1.125rem 1.25rem;
+	background: #fff4e5;
+	border: 1px solid #e8a33d;
+	border-left: 8px solid #d97706;
+	border-radius: 4px;
+	color: #4a3208;
+}
+
+.coauthorAlert__banner--final {
+	background: #fdecea;
+	border-color: #e0655b;
+	border-left-color: #c0392b;
+	color: #4a1512;
+}
+
+.coauthorAlert__icon {
+	flex: 0 0 2rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background: #d97706;
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 2rem;
+	text-align: center;
+}
+
+.coauthorAlert__banner--final .coauthorAlert__icon {
+	background: #c0392b;
+}
+
+.coauthorAlert__body {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.coauthorAlert__title {
+	margin: 0 0 0.5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.35;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+.coauthorAlert__text p {
+	margin: 0 0 0.625rem;
+}
+
+.coauthorAlert__text p:last-child {
+	margin-bottom: 0;
+}
+
+.coauthorAlert__text strong {
+	font-weight: 700;
+}
+
+.coauthorAlert__status {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+	margin-top: 0.625rem;
+	padding: 0.75rem 1rem;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+.coauthorAlert__status--danger {
+	background: #c0392b;
+	color: #fff;
+}
+
+.coauthorAlert__status--ok {
+	background: #e8f5ec;
+	border: 1px solid #4e9a68;
+	color: #24503a;
+}
+
+.coauthorAlert__statusIcon {
+	flex: 0 0 auto;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.coauthorAlert__confirm {
+	margin-top: 0.75rem;
+	padding: 1rem 1.25rem;
+	background: #fff;
+	border: 2px dashed #c0392b;
+	border-radius: 4px;
+}
+
+.coauthorAlert--confirmed .coauthorAlert__confirm {
+	border-style: solid;
+	border-color: #4e9a68;
+	background: #f4fbf6;
+}
+
+.coauthorAlert--pending .coauthorAlert__confirm {
+	background: #fdecea;
+	border-color: #c0392b;
+	box-shadow: 0 0 0 3px rgba(192, 57, 43, 0.2);
+}
+
+.coauthorAlert__confirmLabel {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.75rem;
+	margin: 0;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.coauthorAlert__checkbox {
+	flex: 0 0 auto;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin: 0.125rem 0 0;
+	cursor: pointer;
+}
+
+.coauthorAlert__confirmText p {
+	margin: 0 0 0.5rem;
+}
+
+.coauthorAlert__confirmText p:last-child {
+	margin-bottom: 0;
+}
+
+.coauthorAlert__error {
+	margin: 0.75rem 0 0;
+	color: #c0392b;
+	font-weight: 700;
+}
+
+.coauthorAlert--shake .coauthorAlert__confirm {
+	animation: coauthorAlertShake 0.45s ease-in-out 1;
+}
+
+@keyframes coauthorAlertShake {
+	0%, 100% { transform: translateX(0); }
+	20% { transform: translateX(-7px); }
+	40% { transform: translateX(7px); }
+	60% { transform: translateX(-4px); }
+	80% { transform: translateX(4px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.coauthorAlert--shake .coauthorAlert__confirm {
+		animation: none;
+	}
+}

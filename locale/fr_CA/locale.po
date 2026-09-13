@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fr_CA\n"
+
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Alerte coauteur-e et direction de recherche"
+
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Affiche des avis bien visibles à l'étape des contributeurs-trices et à l'étape finale de vérification de l'assistant de soumission pour rappeler aux auteur-e-s de travaux dirigés d'ajouter leur directeur-trice de recherche comme coauteur-e, et exige une confirmation avant la soumission. Tous les textes sont configurables et multilingues."
+
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Les champs ci-dessous sont préremplis avec un texte par défaut dans chacune des langues de la revue et peuvent être modifiés librement. Si un champ est laissé vide, le texte par défaut du plugiciel est utilisé."
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Avis à l'étape des contributeurs-trices"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Titre de l'avis"
+
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Texte de l'avis"
+
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Message affiché lorsqu'il n'y a qu'un-e seul-e auteur-e"
+
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Message affiché lorsqu'un-e coauteur-e a été ajouté-e"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Avis à l'étape finale de vérification"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Titre de l'avis final"
+
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Texte de l'avis final"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Confirmation"
+
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Exiger que l'auteur-e coche la confirmation avant de terminer la soumission"
+
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Exiger la confirmation seulement lorsque la soumission n'a qu'un-e seul-e auteur-e"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Texte de la confirmation"
+
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Message d'erreur affiché lorsque l'auteur-e tente de soumettre sans cocher la case"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Travail dirigé ? Ajoutez dès maintenant votre directeur-trice de recherche comme coauteur-e"
+
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Travail réalisé sous direction (projet de fin d'études, mémoire ou essai de baccalauréat) ? Ajoutez votre directeur-trice de recherche comme coauteur-e <strong>à cette étape</strong>.</p><p>Après la soumission, la liste des auteur-e-s ne peut plus être modifiée, et la revue doit savoir dès le départ qui dirige votre travail, afin de ne jamais inviter cette personne à évaluer le travail de sa propre étudiante ou de son propre étudiant, ce qui compromettrait l'évaluation à double insu. Sans votre directeur-trice comme coauteur-e, le travail ne pourra pas non plus être validé comme projet de fin d'études.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Cette soumission n'a qu'un-e seul-e auteur-e. Si le travail a été dirigé, ajoutez dès maintenant votre directeur-trice de recherche comme coauteur-e."
+
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Coauteur-e-s ajouté-e-s. Vérifiez que votre directeur-trice de recherche en fait partie."
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Dernière chance d'ajouter votre directeur-trice de recherche comme coauteur-e"
+
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Après la soumission, la liste des auteur-e-s ne pourra plus être modifiée. Si le travail a été dirigé et que votre directeur-trice de recherche n'apparaît pas ci-dessus, cliquez sur Modifier dans le panneau Contributeurs-trices : sinon, le travail ne pourra pas être validé comme projet de fin d'études et cette personne pourrait être invitée à l'évaluer, ce qui compromettrait l'évaluation à double insu.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>J'ai vérifié la liste des auteur-e-s. Si ce travail a été dirigé, ma directrice ou mon directeur de recherche figure comme coauteur-e. Je comprends qu'il sera impossible d'ajouter des coauteur-e-s après la soumission.</p>"
+
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Veuillez cocher la confirmation ci-dessus pour terminer votre soumission."

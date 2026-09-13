@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fi\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Kanssakirjoittaja- ja ohjaajamuistutus"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Näyttää huomiota herättävät ilmoitukset lähetysohjatun tekijävaiheessa ja viimeisessä tarkistusvaiheessa. Ilmoitukset muistuttavat ohjattujen töiden kirjoittajia lisäämään ohjaajansa kanssakirjoittajaksi, ja ennen lähettämistä vaaditaan vahvistus. Kaikki tekstit ovat muokattavissa ja monikielisiä."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Alla olevat kentät on esitäytetty oletustekstillä kullakin julkaisun kielellä, ja niitä voi muokata vapaasti. Jos kenttä jätetään tyhjäksi, käytetään lisäosan oletustekstiä."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Ilmoitus tekijävaiheessa"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Ilmoituksen otsikko"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Ilmoituksen teksti"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Viesti, joka näytetään, kun kirjoittajia on vain yksi"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Viesti, joka näytetään, kun kanssakirjoittaja on lisätty"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Ilmoitus viimeisessä tarkistusvaiheessa"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Loppuilmoituksen otsikko"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Loppuilmoituksen teksti"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Vahvistus"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Vaadi kirjoittajaa rastittamaan vahvistus ennen käsikirjoituksen lähettämistä"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Vaadi vahvistus vain, kun käsikirjoituksella on yksi kirjoittaja"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Vahvistuksen teksti"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Virheilmoitus, kun kirjoittaja yrittää lähettää rastittamatta vahvistusta"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Ohjattu työ? Lisää ohjaajasi kanssakirjoittajaksi nyt"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Onko kyseessä ohjattu työ (lopputyö, opinnäytetyö tai kandidaatintutkielma)? Lisää ohjaajasi kanssakirjoittajaksi <strong>tässä vaiheessa</strong>.</p><p>Lähettämisen jälkeen kirjoittajaluetteloa ei voi muuttaa, ja julkaisun on tiedettävä alusta asti, kuka ohjaajasi on, jotta häntä ei koskaan kutsuta arvioimaan oman opiskelijansa työtä, mikä vaarantaisi kaksoissokkoarvioinnin. Ilman ohjaajaa kanssakirjoittajana työtä ei myöskään voida hyväksyä lopputyöksi.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Tällä käsikirjoituksella on vain yksi kirjoittaja. Jos työ on tehty ohjauksessa, lisää ohjaajasi kanssakirjoittajaksi nyt."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Kanssakirjoittajia lisätty. Varmista, että ohjaajasi on heidän joukossaan."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Viimeinen tilaisuus lisätä ohjaajasi kanssakirjoittajaksi"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Lähettämisen jälkeen kirjoittajaluetteloa ei voi enää muuttaa. Jos työ on tehty ohjauksessa eikä ohjaajasi ole yllä, napsauta Muokkaa Tekijät-paneelissa: muuten työtä ei voida hyväksyä lopputyöksi, ja ohjaajasi voidaan kutsua arvioimaan se, mikä vaarantaa kaksoissokkoarvioinnin.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Olen tarkistanut kirjoittajaluettelon. Jos tämä työ on tehty ohjauksessa, ohjaajani on merkitty kanssakirjoittajaksi. Ymmärrän, ettei kanssakirjoittajia voi lisätä lähettämisen jälkeen.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Rastita yllä oleva vahvistus viimeistelläksesi lähetyksen."

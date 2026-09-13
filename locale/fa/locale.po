@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fa\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "هشدار هم‌نویسنده و استاد راهنما"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "در مرحله پدیدآورندگان و در مرحله بازبینی نهایی ارسال مقاله، هشدارهای برجسته‌ای نمایش می‌دهد که به نویسندگان کارهای تحت راهنمایی یادآوری می‌کند استاد راهنمای خود را به‌عنوان هم‌نویسنده اضافه کنند، و پیش از ارسال، تأییدیه‌ای را الزامی می‌کند. همه متن‌ها قابل تنظیم و چندزبانه هستند."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "فیلدهای زیر با متن پیش‌فرض به هر یک از زبان‌های مجله پر شده‌اند و می‌توان آن‌ها را آزادانه تغییر داد. اگر فیلدی خالی بماند، متن پیش‌فرض افزونه استفاده می‌شود."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "هشدار در مرحله پدیدآورندگان"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "عنوان هشدار"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "متن هشدار"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "پیامی که هنگام وجود تنها یک نویسنده نمایش داده می‌شود"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "پیامی که پس از افزودن هم‌نویسنده نمایش داده می‌شود"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "هشدار در مرحله بازبینی نهایی"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "عنوان هشدار نهایی"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "متن هشدار نهایی"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "تأییدیه"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "الزام نویسنده به علامت زدن تأییدیه پیش از تکمیل ارسال"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "الزام تأییدیه فقط زمانی که مقاله ارسالی تنها یک نویسنده دارد"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "متن تأییدیه"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "پیام خطایی که هنگام تلاش برای ارسال بدون علامت زدن تأییدیه نمایش داده می‌شود"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "کار تحت راهنمایی؟ همین حالا استاد راهنمای خود را به‌عنوان هم‌نویسنده اضافه کنید"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>آیا این کار تحت راهنمایی انجام شده است (پروژه پایانی، پایان‌نامه یا مقاله دوره کارشناسی)؟ استاد راهنمای خود را <strong>در همین مرحله</strong> به‌عنوان هم‌نویسنده اضافه کنید.</p><p>پس از ارسال، فهرست نویسندگان قابل تغییر نیست و مجله باید از ابتدا بداند استاد راهنمای شما کیست تا هرگز برای داوری کار دانشجوی خودش دعوت نشود، چون این کار داوری دوسوناشناس را مخدوش می‌کند. بدون استاد راهنما به‌عنوان هم‌نویسنده، کار به‌عنوان پروژه پایانی نیز تأیید نخواهد شد.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "این مقاله ارسالی تنها یک نویسنده دارد. اگر کار تحت راهنمایی انجام شده است، همین حالا استاد راهنمای خود را به‌عنوان هم‌نویسنده اضافه کنید."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "هم‌نویسندگان اضافه شدند. مطمئن شوید استاد راهنمای شما در میان آن‌هاست."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "آخرین فرصت برای افزودن استاد راهنما به‌عنوان هم‌نویسنده"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>پس از ارسال، فهرست نویسندگان دیگر قابل تغییر نیست. اگر کار تحت راهنمایی انجام شده و استاد راهنمای شما در بالا فهرست نشده است، در بخش پدیدآورندگان روی ویرایش کلیک کنید: در غیر این صورت کار به‌عنوان پروژه پایانی تأیید نخواهد شد و ممکن است استاد راهنمای شما برای داوری آن دعوت شود، که داوری دوسوناشناس را مخدوش می‌کند.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>فهرست نویسندگان را بررسی کرده‌ام. اگر این کار تحت راهنمایی انجام شده است، استاد راهنمای من به‌عنوان هم‌نویسنده فهرست شده است. می‌دانم که پس از ارسال نمی‌توان هم‌نویسنده اضافه کرد.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "لطفاً برای تکمیل ارسال، تأییدیه بالا را علامت بزنید."

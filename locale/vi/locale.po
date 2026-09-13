@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: vi\n"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.displayName"
+msgstr "Cảnh báo đồng tác giả và giảng viên hướng dẫn"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.description"
+msgstr "Hiển thị thông báo nổi bật ở bước Người đóng góp và bước xem lại cuối cùng của trình hướng dẫn nộp bài, nhắc tác giả của các công trình có người hướng dẫn thêm giảng viên hướng dẫn làm đồng tác giả, và yêu cầu xác nhận trước khi nộp. Tất cả văn bản đều có thể tùy chỉnh và hỗ trợ nhiều ngôn ngữ."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.description"
+msgstr "Các trường dưới đây đã được điền sẵn nội dung mặc định bằng từng ngôn ngữ của tạp chí và có thể thay đổi tùy ý. Nếu để trống một trường, văn bản mặc định của plugin sẽ được sử dụng."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsArea"
+msgstr "Thông báo ở bước Người đóng góp"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertTitle"
+msgstr "Tiêu đề thông báo"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.contributorsAlertText"
+msgstr "Nội dung thông báo"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloWarning"
+msgstr "Thông điệp hiển thị khi chỉ có một tác giả"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.soloOk"
+msgstr "Thông điệp hiển thị sau khi đã thêm đồng tác giả"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewArea"
+msgstr "Thông báo ở bước xem lại cuối cùng"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertTitle"
+msgstr "Tiêu đề thông báo cuối"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.reviewAlertText"
+msgstr "Nội dung thông báo cuối"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmArea"
+msgstr "Xác nhận"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.requireConfirmation"
+msgstr "Yêu cầu tác giả đánh dấu xác nhận trước khi hoàn tất nộp bài"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.onlyWhenSingleAuthor"
+msgstr "Chỉ yêu cầu xác nhận khi bài nộp có một tác giả duy nhất"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmLabel"
+msgstr "Nội dung xác nhận"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.settings.confirmError"
+msgstr "Thông báo lỗi hiển thị khi tác giả cố nộp bài mà chưa đánh dấu xác nhận"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertTitle"
+msgstr "Công trình có người hướng dẫn? Hãy thêm giảng viên hướng dẫn làm đồng tác giả ngay"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.contributorsAlertText"
+msgstr "<p>Công trình được thực hiện dưới sự hướng dẫn (khóa luận tốt nghiệp, luận văn hoặc bài báo sinh viên)? Hãy thêm giảng viên hướng dẫn làm đồng tác giả <strong>ở bước này</strong>.</p><p>Sau khi nộp, danh sách tác giả không thể thay đổi, và tạp chí cần biết ngay từ đầu ai là người hướng dẫn của bạn để không bao giờ mời họ đánh giá công trình của chính sinh viên mình, điều sẽ làm tổn hại quy trình phản biện kín hai chiều. Nếu người hướng dẫn không là đồng tác giả, công trình cũng không thể được công nhận là khóa luận tốt nghiệp.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloWarning"
+msgstr "Bài nộp này chỉ có một tác giả. Nếu công trình có người hướng dẫn, hãy thêm giảng viên hướng dẫn làm đồng tác giả ngay."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.soloOk"
+msgstr "Đã thêm đồng tác giả. Hãy kiểm tra để chắc chắn giảng viên hướng dẫn của bạn có trong số đó."
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertTitle"
+msgstr "Cơ hội cuối cùng để thêm giảng viên hướng dẫn làm đồng tác giả"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.reviewAlertText"
+msgstr "<p>Sau khi nộp, danh sách tác giả sẽ không thể thay đổi nữa. Nếu công trình có người hướng dẫn và giảng viên hướng dẫn của bạn không có trong danh sách trên, hãy nhấn Chỉnh sửa trong mục Người đóng góp: nếu không, công trình không thể được công nhận là khóa luận tốt nghiệp và giảng viên hướng dẫn có thể được mời đánh giá nó, làm tổn hại quy trình phản biện kín hai chiều.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmLabel"
+msgstr "<p>Tôi đã kiểm tra danh sách tác giả. Nếu công trình này có người hướng dẫn, giảng viên hướng dẫn của tôi đã được liệt kê là đồng tác giả. Tôi hiểu rằng không thể thêm đồng tác giả sau khi nộp bài.</p>"
+
+#, fuzzy
+msgid "plugins.generic.coauthorAlert.default.confirmError"
+msgstr "Vui lòng đánh dấu xác nhận ở trên để hoàn tất nộp bài."
