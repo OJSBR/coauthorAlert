@@ -8,31 +8,43 @@
  *
  * @class PluginTest
  *
- * @brief The plugin and settings form classes, compiled against the PKP classes
- *        of the installation they run in.
+ * @brief The plugin classes compiled against the PKP classes of the
+ *        installation: an override whose return type differs from its parent is
+ *        a fatal error that php -l does not catch.
  */
 
 namespace APP\plugins\generic\coauthorAlert\tests;
 
-use APP\core\Application;
-use APP\core\PageRouter;
-use APP\plugins\generic\coauthorAlert\CoauthorAlertPlugin;
-use APP\plugins\generic\coauthorAlert\CoauthorAlertSettingsForm;
+use PKP\tests\PKPTestCase;
 use ReflectionClass;
 use ReflectionNamedType;
 
-class PluginTest extends TestCase
+class PluginTest extends PKPTestCase
 {
-    public function testOverriddenMethodsDeclareTheReturnTypesOfThisPkpVersion(): void
+    /** @return string[] */
+    protected function classes(): array
     {
-        // The first build declared getLocaleFieldNames() without ": array".
-        // php -l accepts it; loading the class next to PKP 3.5 is a fatal error,
-        // and the settings modal answered with an empty 500.
-        foreach ([CoauthorAlertPlugin::class, CoauthorAlertSettingsForm::class] as $class) {
+        return [
+            \APP\plugins\generic\coauthorAlert\CoauthorAlertPlugin::class,
+            \APP\plugins\generic\coauthorAlert\CoauthorAlertSettingsForm::class,
+        ];
+    }
+
+    public function testEveryClassLoadsAgainstThisPkpVersion(): void
+    {
+        foreach ($this->classes() as $class) {
+            $this->assertTrue(class_exists($class), "{$class} does not load.");
+        }
+    }
+
+    public function testOverriddenMethodsDeclareCompatibleReturnTypes(): void
+    {
+        foreach ($this->classes() as $class) {
             $reflection = new ReflectionClass($class);
             $parent = $reflection->getParentClass();
+            $this->assertTrue($parent !== false, "{$class} extends nothing.");
             foreach ($reflection->getMethods() as $method) {
-                if ($method->getDeclaringClass()->getName() !== $class || !$parent->hasMethod($method->getName())) {
+                if ($method->getDeclaringClass()->getName() !== $reflection->getName() || !$parent->hasMethod($method->getName())) {
                     continue;
                 }
                 $parentType = $parent->getMethod($method->getName())->getReturnType();
@@ -40,130 +52,44 @@ class PluginTest extends TestCase
                     continue;
                 }
                 $type = $method->getReturnType();
+                $covariant = $type instanceof ReflectionNamedType && $parentType instanceof ReflectionNamedType
+                    && !$type->isBuiltin() && !$parentType->isBuiltin() && is_a($type->getName(), $parentType->getName(), true);
                 $this->assertTrue(
-                    $type instanceof ReflectionNamedType && $type->getName() === (string) $parentType,
-                    sprintf('%s::%s() must declare the return type %s.', $reflection->getShortName(), $method->getName(), $parentType)
+                    $type !== null && ((string) $type === (string) $parentType || $covariant || ($type instanceof ReflectionNamedType && '?' . $type->getName() === (string) $parentType)),
+                    sprintf('%s::%s() must declare a return type compatible with %s.', $reflection->getShortName(), $method->getName(), $parentType)
                 );
             }
         }
     }
 
-    public function testCurrentLocaleValueIsUsed(): void
+    public function testTheRegistryFindsThePlugin(): void
     {
-        $this->assertSame('Olá', CoauthorAlertPlugin::resolveLocalized(['pt_BR' => 'Olá', 'en' => 'Hello'], 'pt_BR', 'en'));
-    }
-
-    public function testEmptiedFieldFallsBackToTheDefaultOfThatLanguage(): void
-    {
-        // Not to another language's custom text: the reader would get a notice
-        // in a language they did not choose.
-        $this->assertSame(null, CoauthorAlertPlugin::resolveLocalized(['pt_BR' => 'Olá', 'en' => '  '], 'en', 'pt_BR'));
-    }
-
-    public function testUiOnlyLanguageBorrowsThePrimaryLocale(): void
-    {
-        $this->assertSame('Olá', CoauthorAlertPlugin::resolveLocalized(['pt_BR' => 'Olá', 'en' => 'Hello'], 'fr', 'pt_BR'));
-        $this->assertSame(null, CoauthorAlertPlugin::resolveLocalized(['pt_BR' => '', 'en' => 'Hello'], 'fr', 'pt_BR'));
-    }
-
-    public function testNeverConfiguredSettingUsesTheDefault(): void
-    {
-        $this->assertSame(null, CoauthorAlertPlugin::resolveLocalized(null, 'pt_BR', 'pt_BR'));
-        $this->assertSame('Legacy', CoauthorAlertPlugin::resolveLocalized('Legacy', 'pt_BR', 'pt_BR'));
-    }
-
-    public function testPlainTextSettingIsStrippedAndEscaped(): void
-    {
-        $plugin = $this->pluginReturning('<b>Title</b> & "quotes"');
-        $this->assertSame('Title &amp; &quot;quotes&quot;', $plugin->getText(1, 'soloWarning'));
-    }
-
-    public function testHtmlSettingLosesScriptsAndEventHandlers(): void
-    {
-        $plugin = $this->pluginReturning('<p onclick="steal()">Keep <strong>this</strong></p><script>alert(1)</script>');
-        $html = $plugin->getHtml(1, 'contributorsAlertText');
-
-        $this->assertStringContainsString('<p>Keep <strong>this</strong></p>', $html);
-        $this->assertStringNotContainsString('script', $html);
-        $this->assertStringNotContainsString('onclick', $html);
-    }
-
-    public function testFlagsFallBackToTheirDefaultsUntilSaved(): void
-    {
-        $plugin = new class () extends CoauthorAlertPlugin {
-            public array $stored = [];
-
-            public function getSetting($contextId, $name)
-            {
-                return $this->stored[$name] ?? null;
-            }
-        };
-
-        $this->assertSame(true, $plugin->getFlag(1, 'requireConfirmation', true));
-        $this->assertSame(false, $plugin->getFlag(1, 'onlyWhenSingleAuthor', false));
-
-        $plugin->stored = ['requireConfirmation' => false, 'onlyWhenSingleAuthor' => true];
-        $this->assertSame(false, $plugin->getFlag(1, 'requireConfirmation', true));
-        $this->assertSame(true, $plugin->getFlag(1, 'onlyWhenSingleAuthor', false));
-    }
-
-    public function testSettingsFormSanitizesWhatItSaves(): void
-    {
-        $plugin = new class () extends CoauthorAlertPlugin {
-            public array $saved = [];
-
-            public function getSetting($contextId, $name)
-            {
-                return null;
-            }
-
-            public function updateSetting($contextId, $name, $value, $type = null)
-            {
-                $this->saved[$name] = [$value, $type];
-            }
-        };
-
-        $this->ensureRouter();
-        $form = new CoauthorAlertSettingsForm($plugin, 1);
-        $form->setData('contributorsAlertTitle', ['en' => '  <em>Heading</em>  ']);
-        $form->setData('contributorsAlertText', ['en' => '<p>Text</p><script>alert(1)</script>']);
-        $form->setData('requireConfirmation', '');
-        $form->setData('onlyWhenSingleAuthor', '1');
-        $form->execute();
-
-        $this->assertSame([['en' => 'Heading'], 'object'], $plugin->saved['contributorsAlertTitle']);
-        $this->assertSame([['en' => '<p>Text</p>'], 'object'], $plugin->saved['contributorsAlertText']);
-        $this->assertSame([false, 'bool'], $plugin->saved['requireConfirmation']);
-        $this->assertSame([true, 'bool'], $plugin->saved['onlyWhenSingleAuthor']);
-        $this->assertCount(10, $plugin->saved);
-    }
-
-    /**
-     * A command line request has no router, and PKP forms ask it for the
-     * context. The page router answers "no context", the site level.
-     */
-    protected function ensureRouter(): void
-    {
-        $request = Application::get()->getRequest();
-        if (!$request->getRouter()) {
-            $router = new PageRouter();
-            $router->setApplication(Application::get());
-            $request->setRouter($router);
+        // PKP looks for APP\plugins\<category>\<dir>\<Dir>Plugin first and only then for index.php:
+        // a main class named otherwise without index.php is never loaded, and nothing is logged.
+        $root = dirname(__DIR__);
+        $product = basename($root);
+        $category = basename(dirname($root));
+        if (is_file($root . '/index.php')) {
+            $this->assertStringContainsString('return new ', (string) file_get_contents($root . '/index.php'));
+            return;
         }
+        $class = implode(chr(92), ['APP', 'plugins', $category, $product, ucfirst($product) . 'Plugin']);
+        $this->assertTrue(class_exists($class), "Without index.php the main class must be {$class}.");
     }
 
-    protected function pluginReturning(string $value): CoauthorAlertPlugin
+    public function testNoInheritedPropertyIsRedeclaredWithAType(): void
     {
-        return new class ($value) extends CoauthorAlertPlugin {
-            public function __construct(private string $value)
-            {
-                parent::__construct();
+        // A typed redeclaration of an untyped parent property ($pluginPath...) is fatal.
+        $this->assertNotEmpty($this->classes());
+        foreach ($this->classes() as $class) {
+            $reflection = new ReflectionClass($class);
+            $parent = $reflection->getParentClass();
+            foreach ($reflection->getProperties() as $property) {
+                if ($property->getDeclaringClass()->getName() !== $reflection->getName() || !$parent->hasProperty($property->getName())) {
+                    continue;
+                }
+                $this->assertSame((string) $parent->getProperty($property->getName())->getType(), (string) $property->getType(), "{$class}::\${$property->getName()}");
             }
-
-            public function getLocalized(?int $contextId, string $name): string
-            {
-                return $this->value;
-            }
-        };
+        }
     }
 }

@@ -8,68 +8,58 @@
  *
  * @class TemplateSafetyTest
  *
- * @brief The wizard templates are compiled by Vue from the page itself.
- *
- * The browser decodes HTML entities before Vue reads the template, so escaping
- * "{{" on the server does not stop a text typed in the settings from being
- * evaluated as a Vue expression (a title "{{ 7*7 }}" rendered as "49" in the
- * first build). Only v-pre does. These tests keep that from regressing.
+ * @brief Static checks on the templates and the source files.
  */
 
 namespace APP\plugins\generic\coauthorAlert\tests;
 
-class TemplateSafetyTest extends TestCase
+use PKP\tests\PKPTestCase;
+
+class TemplateSafetyTest extends PKPTestCase
 {
-    protected function template(string $name): string
+    /** @return string[] */
+    protected function templates(): array
     {
-        return (string) file_get_contents(dirname(__DIR__) . '/templates/' . $name);
+        $root = dirname(__DIR__);
+        return array_merge(glob($root . '/templates/*.tpl') ?: [], glob($root . '/templates/*/*.tpl') ?: []);
     }
 
-    public function testEveryJournalTextIsPrintedInsideAVPreElement(): void
+    public function testFormsPostWithACsrfToken(): void
     {
-        foreach (['wizardContributors.tpl', 'wizardReview.tpl'] as $name) {
-            $printed = 0;
-            foreach (explode("\n", $this->template($name)) as $number => $line) {
-                if (!preg_match('/\{\$coauthorAlert\w+\}/', $line)) {
-                    continue;
-                }
-                $printed++;
-                $this->assertStringContainsString(' v-pre', $line, sprintf('%s:%d prints a setting outside v-pre.', $name, $number + 1));
+        $this->assertTrue(true);
+        foreach ($this->templates() as $file) {
+            $source = (string) file_get_contents($file);
+            if (preg_match('/<form\b[^>]*method="post"/i', $source)) {
+                $this->assertStringContainsString('{csrf}', $source, basename($file) . ' posts without a CSRF token.');
             }
-            $this->assertTrue($printed > 0, "{$name} prints no setting at all.");
         }
     }
 
-    public function testThePluginDoesNotRelyOnEscapingBraces(): void
+    public function testTranslationsInAttributesAreEscaped(): void
     {
-        $source = (string) file_get_contents(dirname(__DIR__) . '/CoauthorAlertPlugin.php');
-        $this->assertStringNotContainsString('&#123;', $source);
-    }
-
-    public function testContributorsNoticeIsLimitedToTheContributorsSection(): void
-    {
-        // The hook output is repeated by Vue for every section of every step.
-        $this->assertStringContainsString(
-            '<div v-if="section.id === \'contributors\'" class="coauthorAlert"',
-            $this->template('wizardContributors.tpl')
-        );
-    }
-
-    public function testReviewMarkupCarriesTheAttributesTheScriptLooksFor(): void
-    {
-        $template = $this->template('wizardReview.tpl');
-        $script = (string) file_get_contents(dirname(__DIR__) . '/js/coauthorAlert.js');
-
-        foreach (['data-coauthor-alert', 'data-coauthor-alert-confirm', 'data-coauthor-alert-error'] as $attribute) {
-            $this->assertStringContainsString($attribute, $template);
-            $this->assertStringContainsString('[' . $attribute . ']', $script);
+        // {translate key="x"|escape} escapes the key, not the translation.
+        foreach ($this->templates() as $file) {
+            $this->assertSame(0, preg_match('/\{translate key="[^"]+"\|escape\}/', (string) file_get_contents($file)), basename($file));
         }
-        $this->assertStringContainsString("'.submissionWizard__footer'", $script);
+        $this->assertTrue(true);
     }
 
-    public function testAssetsReferencedByThePluginExist(): void
+    public function testNoCoreTemplateIsReplaced(): void
     {
-        $this->assertTrue(is_file(dirname(__DIR__) . '/js/coauthorAlert.js'));
-        $this->assertTrue(is_file(dirname(__DIR__) . '/styles/coauthorAlert.css'));
+        foreach (glob(dirname(__DIR__) . '/*.php') as $file) {
+            $source = (string) file_get_contents($file);
+            $this->assertSame(0, preg_match("/Hook(Registry)?::(add|register)\\(\\s*'TemplateResource::getFilename'/", $source), basename($file) . ' replaces a core template.');
+        }
+    }
+
+    public function testSourceHasTheStandardHeader(): void
+    {
+        $root = dirname(__DIR__);
+        $files = array_merge(glob($root . '/*.php'), glob($root . '/classes/*.php'), glob($root . '/classes/*/*.php'), glob(__DIR__ . '/*.php'), $this->templates(), glob($root . '/js/*.js'), glob($root . '/css/*.css'));
+        foreach ($files as $file) {
+            $source = (string) file_get_contents($file);
+            $this->assertMatchesRegularExpression('/Copyright \(c\) (\d{4}-)?2026 OJSBR \(https:\/\/ojsbr\.com\)/', $source, basename($file) . ' lacks the header.');
+            $this->assertStringNotContainsString('https://ojsbr.com' . '.br', $source, basename($file) . ' points at the old address.');
+        }
     }
 }

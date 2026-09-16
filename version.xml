@@ -16,8 +16,8 @@
 <version>
 	<application>coauthorAlert</application>
 	<type>plugins.generic</type>
-	<release>1.0.0.0</release>
-	<date>2026-09-13</date>
+	<release>1.0.1.0</release>
+	<date>2026-09-16</date>
 	<lazy-load>1</lazy-load>
 	<class>CoauthorAlertPlugin</class>
 </version>

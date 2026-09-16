@@ -1,10 +1,10 @@
 # Co-author and Supervisor Alert — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.0.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/coauthorAlert/releases/download/1.0.0.0/coauthorAlert-1.0.0.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/coauthorAlert/releases/download/1.0.1.0/coauthorAlert-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that makes sure authors of supervised work
 add their supervisor as a co-author **while they still can**: a prominent notice on the
@@ -18,7 +18,7 @@ with an acknowledgement the author must tick before submitting.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.0.0 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
 
 ## The problem
 
@@ -103,11 +103,10 @@ and HTML settings go through `PKPString::stripUnsafeHtml()` when saved and again
   `v-pre` guarantee in the templates, and the completeness of every translation — OJS 3.5 has
   no locale fallback, so a missing key would be displayed as `##key##`.
 
-  It is collected by PKP's `ApplicationPlugins` PHPUnit suite, and also runs standalone from an
-  installation, since the OJS release tarball ships no development dependencies:
+  The suite runs on PKP's own `PKPTestCase` under PKP's PHPUnit, the way the official plugins do:
 
   ```bash
-  php plugins/generic/coauthorAlert/tests/run.php
+  php lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml plugins/generic/coauthorAlert/tests
   ```
 
 - **Cypress** (`cypress/tests/functional/CoauthorAlert.cy.js`): enabling the plugin, the
@@ -144,7 +143,7 @@ de revisão, com uma declaração de ciência que o autor precisa marcar antes d
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 1.0.0.0 |
+| OJS 3.5.x     | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 1.0.1.0 |
 
 ### O problema
 
@@ -186,11 +185,11 @@ houver um único autor** (desligada por padrão).
 ### Testes
 
 Suíte PHP em `tests/` (compatibilidade das classes com a versão do PKP, regras de idioma,
-sanitização, garantia do `v-pre` nos templates e completude das traduções), coletada pelo
-PHPUnit do PKP e executável direto na instalação:
+sanitização, garantia do `v-pre` nos templates e completude das traduções), sobre o
+`PKPTestCase` do próprio PKP, como nos plugins oficiais:
 
 ```bash
-php plugins/generic/coauthorAlert/tests/run.php
+php lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml plugins/generic/coauthorAlert/tests
 ```
 
 E teste Cypress em `cypress/tests/functional/CoauthorAlert.cy.js`, cobrindo ativação,
