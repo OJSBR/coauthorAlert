@@ -69,6 +69,13 @@ The author has to be warned unmistakably, at the right moment, and has to acknow
 
 ## How it works (technical)
 
+**Where the acknowledgement is enforced.** The tick that holds the Submit button is enforced in
+the browser: the plugin listens for the click before the wizard does and stops it while the box is
+not ticked. The server does not refuse a submission for a missing tick, and it is not meant to —
+this is a reminder to the author, not an editorial rule. A journal that needs a rule the server
+enforces should ask for the co-author in the metadata itself (see `requiredAuthorMetadata`).
+
+
 Only official hooks, no core file is changed:
 
 - **`Template::SubmissionWizard::Section`** for the contributors step. That call sits inside the
@@ -174,6 +181,14 @@ Instale em **Configurações → Website → Plugins → Enviar um novo plugin**
 `plugins/generic/` (ficando `plugins/generic/coauthorAlert/`). Não renomeie a pasta: o OJS
 deriva o namespace da classe do nome do diretório. Depois ative o plugin na lista de
 *Genéricos* e abra as **Configurações** para revisar os textos.
+
+### Onde o aceite é exigido
+
+A marcação que segura o botão Enviar é exigida **no navegador**: o plugin escuta o clique antes do
+assistente e o interrompe enquanto a caixa não estiver marcada. O servidor não recusa a submissão
+por falta da marcação, e não é essa a intenção — isto é um aviso ao autor, não uma regra editorial.
+Revista que precise de uma regra exigida pelo servidor deve pedir o coautor nos próprios metadados
+(ver `requiredAuthorMetadata`).
 
 ### Configuração
 
