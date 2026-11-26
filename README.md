@@ -1,10 +1,10 @@
 # Co-author and Supervisor Alert — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-5.0.0.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/coauthorAlert/releases/download/1.0.1.0/coauthorAlert-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/coauthorAlert/releases/download/5.0.0.0/coauthorAlert-5.0.0.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that makes sure authors of supervised work
 add their supervisor as a co-author **while they still can**: a prominent notice on the
@@ -18,7 +18,7 @@ with an acknowledgement the author must tick before submitting.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 5.0.0.0 |
 
 ## The problem
 
@@ -150,7 +150,7 @@ de revisão, com uma declaração de ciência que o autor precisa marcar antes d
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 1.0.1.0 |
+| OJS 3.5.x     | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 5.0.0.0 |
 
 ### O problema
 
